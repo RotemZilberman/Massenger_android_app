@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Whatsapp_Application</string>
+    <string name="base_url">http://localhost:5000/</string>
+</resources>
