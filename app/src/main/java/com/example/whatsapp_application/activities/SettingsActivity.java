@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.whatsapp_application.R;
 import com.example.whatsapp_application.entities.ServerAddress;
 import com.example.whatsapp_application.repositories.MessageRepository.ChatRepository;
-import com.example.whatsapp_application.repositories.MessageRepository.UserRepository;
+import com.example.whatsapp_application.repositories.MessageRepository.LoginRepository;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.switchmaterial.SwitchMaterial;
 import androidx.appcompat.app.AppCompatDelegate;
@@ -41,6 +41,8 @@ public class SettingsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 ChatRepository chats = new ChatRepository(getApplicationContext());
                 chats.ClearChats();
+                LoginRepository loginRepository = new LoginRepository(SettingsActivity.this);
+                loginRepository.ClearLoginDetails();
                 Intent intent1 = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent1);
                 finishAffinity();
