@@ -47,6 +47,15 @@ public class MyApplication extends Application {
                 return user.getUsername();
         }
 
+        private static String Base64Image;
+
+        public static String getBase64Image() {
+                return Base64Image;
+        }
+
+        public static void setBase64Image(String base64Image) {
+                Base64Image = base64Image;
+        }
 
 
 }

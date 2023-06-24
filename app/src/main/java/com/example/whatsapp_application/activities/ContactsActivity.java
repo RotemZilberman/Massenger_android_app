@@ -39,29 +39,19 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contacts_screen);
-        // get the token from the activity that started this activity
-//        String token = getIntent().getStringExtra("token");
-//        String username = getIntent().getStringExtra("username");
-//        String displayName = getIntent().getStringExtra("displayname");
-//
-//        String image = getIntent().getStringExtra("picture");
-//        UsernameView = findViewById(R.id.username);
-//        displayNameView = findViewById(R.id.displayName);
-//        if (username == null || displayName == null || token == null) {
-//            Toast.makeText(getApplicationContext(), "Error loading user", Toast.LENGTH_SHORT).show();
-//            return;
-//        }
 
         TextView userNameView = findViewById(R.id.userNameTv);
         userNameView.setText(MyApplication.getUserName());
+        String image = MyApplication.getUser().getProfilePic();
+        String base64Image = image.substring(image.indexOf(',') + 1);
+        profilePic = findViewById(R.id.userProfilePic);
 
-        // set the profile pic
-//
-//        if (false && image != null) {
-//            byte[] decodedString = Base64.decode(image, Base64.DEFAULT);
-//            Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
-//            profilePic.setImageBitmap(bitmap);
-//        }
+        if (image != null) {
+            byte[] decodedString = Base64.decode(base64Image, Base64.DEFAULT);
+            Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
+            profilePic.setImageBitmap(bitmap);
+        }
+
         contactsViewModel = new ViewModelProvider(this).get(ContactsViewModel.class);
 
         RecyclerView lstContacts = findViewById(R.id.lstContacts);
@@ -109,6 +99,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
         // Pass the necessary data to the ChatActivity
         intent.putExtra("chatId", chat.getId());
         intent.putExtra("displayname", chat.getUser().getDisplayName());
+        MyApplication.setBase64Image(chat.getUser().getProfilePic());
         // Add more data if needed
 
         startActivity(intent);

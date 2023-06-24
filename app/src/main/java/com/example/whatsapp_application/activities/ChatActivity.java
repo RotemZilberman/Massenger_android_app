@@ -37,13 +37,14 @@ public class ChatActivity extends AppCompatActivity {
 
         String displayName = getIntent().getStringExtra("displayname");
 
-        String image = getIntent().getStringExtra("image");
+        String image = MyApplication.getBase64Image();
 
         displayNameView = findViewById(R.id.displayNameTv);
         displayNameView.setText(displayName);
         // set the sender's profile picture
         senderImageView = findViewById(R.id.pictureIv);
-        if (false && image != null) {
+        if ( image != null && !image.equals("pic")) {
+            image = image.substring(image.indexOf(',') + 1);
             byte[] decodedString = Base64.decode(image, Base64.DEFAULT);
             Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
             senderImageView.setImageBitmap(bitmap);

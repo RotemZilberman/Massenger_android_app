@@ -102,7 +102,7 @@ public class SignUpActivity extends AppCompatActivity {
             byte[] byteArray = byteArrayOutputStream.toByteArray();
 
             // Encode byte array to base64 string
-            String base64String = Base64.encodeToString(byteArray, Base64.DEFAULT);
+            String base64String = "data:image/png;base64," + Base64.encodeToString(byteArray, Base64.DEFAULT);
 
             if (!username.isEmpty() && !password.isEmpty() &&
                     !verPassword.isEmpty() && !displayname.isEmpty() && !base64String.isEmpty()) {
@@ -133,6 +133,7 @@ public class SignUpActivity extends AppCompatActivity {
         if(password.equals(verPassword)) {  //  check password verification
             if(!(password.length() < 8 || password.length() >24)) {
                 if(CheckRequired(password)) {
+
                     userRepository.createUser(new DetailedUser(username, password, displayname, picture), created); //  request creation
                 } else {
                     Toast.makeText(getApplicationContext(), "Password must include a lower and upper case letter, " +
