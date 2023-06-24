@@ -55,7 +55,8 @@
                     android:padding="10sp"
                     android:drawablePadding="8dp"
                     android:drawableStart="@drawable/person_icon"
-                    android:hint="Username"/>
+                    android:hint="Username"
+                    android:textColor="@color/black"/>
 
                 <EditText
                     android:id="@+id/passwordEt"
@@ -67,7 +68,8 @@
                     android:layout_marginBottom="30dp"
                     android:padding="10sp"
                     android:drawablePadding="8dp"
-                    android:drawableStart="@drawable/password_icon" />
+                    android:drawableStart="@drawable/password_icon"
+                    android:textColor="@color/black"/>
 
                 <Button
                     android:id="@+id/signupBtn"

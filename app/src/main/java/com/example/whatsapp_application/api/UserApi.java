@@ -3,6 +3,7 @@ package com.example.whatsapp_application.api;
 import androidx.lifecycle.MutableLiveData;
 
 import com.example.whatsapp_application.entities.DetailedUser;
+import com.example.whatsapp_application.entities.ServerAddress;
 import com.example.whatsapp_application.entities.User;
 
 import retrofit2.Call;
@@ -15,7 +16,7 @@ public class UserApi {
 
     public UserApi() {
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.0.2.2:5000/")
+                .baseUrl(ServerAddress.getAddress())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         webServiceAPI = retrofit.create(WebServiceApi.class);

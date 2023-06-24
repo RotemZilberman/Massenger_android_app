@@ -6,6 +6,8 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -50,8 +52,6 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
 //            return;
 //        }
 
-        Toast.makeText(getApplicationContext(), "Password must be 8-24 characters", Toast.LENGTH_SHORT).show();
-
         TextView userNameView = findViewById(R.id.userNameTv);
         userNameView.setText(MyApplication.getUserName());
 
@@ -84,6 +84,15 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
         addContactButton.setOnClickListener(v -> {
             Intent intent = new Intent(ContactsActivity.this, AddContactActivity.class);
             startActivity(intent);
+        });
+
+        ImageButton settingsBtn = findViewById(R.id.settingsBtn);
+        settingsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ContactsActivity.this, SettingsActivity.class);
+                startActivity(intent);
+            }
         });
     }
     @Override

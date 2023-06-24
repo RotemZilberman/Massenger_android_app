@@ -1,4 +1,3 @@
-
 package com.example.whatsapp_application.activities;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,27 +19,52 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private Intent details;
+    private MutableLiveData<User> result;
+    private UserRepository userRepository;
+    private LoginRepository loginRepository;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_screen);
         MutableLiveData<String> token = new MutableLiveData<>();
         details = new Intent(MyApplication.getContext(), ContactsActivity.class);
-        MutableLiveData<List<Message>> messages = new MutableLiveData<>();
-        LoginRepository loginRepository = new LoginRepository(this);
-        loginRepository.createToken("string", "string", token);
-        MutableLiveData<User> user = new MutableLiveData<>();
-        token.observe(this, s -> {
-            UserRepository UserRepository = new UserRepository();
-            UserRepository.getUser("string", "Bearer " + s, user);
+        userRepository = new UserRepository();
+        loginRepository = new LoginRepository(getApplicationContext());
 
+        result = new MutableLiveData<>(); //  user object to listen to
+
+        result.observe(this, new Observer<User>() { //  handle when updated (found)
+            @Override
+            public void onChanged(User newValue) {
+
+                if (newValue != null) { //  user exists
+                    MyApplication.setUser(newValue);
+                    startActivity(details);
+                    finishAffinity();
+                } else {    //  user does not exist
+                    Toast.makeText(getApplicationContext(), "Invalid information. Try again!", Toast.LENGTH_SHORT).show();
+                }
+            }
         });
-        messages.observe(this, messages1 -> {
-            System.out.println(messages1);
-        });
-        user.observe(this, user1 -> {
-            System.out.println(user1);
-        });
+
+//        token.observe(this, new Observer<String>() { //  handle when updated (found)
+//            @Override
+//            public void onChanged(String newValue) {
+//                if (newValue != null) { //  user exists
+//
+//                    details.putExtra("token", newValue);
+//                    // set token in MyApplication
+//                    MyApplication.setToken("Bearer " + newValue);
+//                    userRepository.getUser(username, "Bearer " + newValue, user); // update user with token
+//                    // get the user
+//                } else {
+//                    Toast.makeText(getApplicationContext(), "Invalid information. Try again!", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
+
+//        });
+//        loginRepository.LocalCreateToken(token);
 
         Button signBtn = findViewById(R.id.signupBtn);
         signBtn.setOnClickListener(view -> {
@@ -57,22 +81,6 @@ public class MainActivity extends AppCompatActivity {
             String username = usernameEt.getText().toString();
             String password = passwordEt.getText().toString();
             if (!username.isEmpty() && !password.isEmpty()) {
-                MutableLiveData<User> result = new MutableLiveData<>(); //  user object to listen to
-
-                result.observe(this, new Observer<User>() { //  handle when updated (found)
-                    @Override
-                    public void onChanged(User newValue) {
-
-                        if (newValue != null) { //  user exists
-                            MyApplication.setUser(newValue);
-                            startActivity(details);
-                            finishAffinity();
-                        } else {    //  user does not exist
-                            Toast.makeText(getApplicationContext(), "Invalid information. Try again!", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-
                 VerifyLogin(username, password, result);    //  check information
             }
             else {  //  not all fields were filled
@@ -83,19 +91,21 @@ public class MainActivity extends AppCompatActivity {
 
     void VerifyLogin(String username, String password, MutableLiveData<User> user) {
         if(!username.isEmpty() && !password.isEmpty()) {
-            UserRepository userRepository = new UserRepository();
-            LoginRepository loginRepository = new LoginRepository(getApplicationContext());
             MutableLiveData<String> token = new MutableLiveData<>();    //  will receive the token from database
 
             token.observe(this, new Observer<String>() {    //  handle return of token
                 @Override
                 public void onChanged(String newValue) {
-                    details.putExtra("token", newValue);
-                    // set token in MyApplication
-                    MyApplication.setToken("Bearer "+ newValue);
-                    userRepository.getUser(username, "Bearer " + newValue, user); // update user with token
-                    // get the user
+                    if (newValue != null) { //  user exists
 
+                        details.putExtra("token", newValue);
+                        // set token in MyApplication
+                        MyApplication.setToken("Bearer " + newValue);
+                        userRepository.getUser(username, "Bearer " + newValue, user); // update user with token
+                        // get the user
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Invalid information. Try again!", Toast.LENGTH_SHORT).show();
+                    }
                 }
             });
 

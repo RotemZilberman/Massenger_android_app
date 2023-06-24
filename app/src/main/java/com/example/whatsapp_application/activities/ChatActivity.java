@@ -35,7 +35,7 @@ public class ChatActivity extends AppCompatActivity {
         String chatId = getIntent().getStringExtra("chatId");
         String token = MyApplication.getToken();
 
-        String displayName = getIntent().getStringExtra("displayName");
+        String displayName = getIntent().getStringExtra("displayname");
 
         String image = getIntent().getStringExtra("image");
 
