@@ -10,6 +10,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 
 import com.example.whatsapp_application.R;
+import com.example.whatsapp_application.entities.DetailedChat;
+import com.example.whatsapp_application.entities.LoginDetail;
 import com.example.whatsapp_application.entities.Message;
 import com.example.whatsapp_application.entities.User;
 import com.example.whatsapp_application.repositories.MessageRepository.LoginRepository;
@@ -47,24 +49,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        token.observe(this, new Observer<String>() { //  handle when updated (found)
-//            @Override
-//            public void onChanged(String newValue) {
-//                if (newValue != null) { //  user exists
-//
-//                    details.putExtra("token", newValue);
-//                    // set token in MyApplication
-//                    MyApplication.setToken("Bearer " + newValue);
-//                    userRepository.getUser(username, "Bearer " + newValue, user); // update user with token
-//                    // get the user
-//                } else {
-//                    Toast.makeText(getApplicationContext(), "Invalid information. Try again!", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
+        token.observe(this, new Observer<String>() { //  if there is a remembered token
+            @Override
+            public void onChanged(String newValue) {
+                if (newValue != null) { //  user exists
+                    MyApplication.setToken(newValue);
+                    MutableLiveData<LoginDetail> details = new MutableLiveData<>();
+                    details.observe(MainActivity.this, new Observer<LoginDetail>() {   // when getting details of the user
+                        @Override
+                        public void onChanged(LoginDetail loginDetail) {
+                            userRepository.getUser(loginDetail.getUsername(), "Bearer " + token.getValue(), result);
+                        }
+                    });
 
-//        });
-//        loginRepository.LocalCreateToken(token);
+                    loginRepository.getLoginInfo(details);
+                }
+            }
+        });
+
+        loginRepository.LocalCreateToken(token);
 
         Button signBtn = findViewById(R.id.signupBtn);
         signBtn.setOnClickListener(view -> {
