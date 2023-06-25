@@ -24,7 +24,7 @@ public class ChatRepository {
     }
 
     public void getAllChats(String token, MutableLiveData<List<Chat>> ChatListData) {
-        ChatListData.postValue(chatDao.getAllChats());
+        ChatListData.setValue(chatDao.getAllChats());
         chatApi.getAllChats(token, ChatListData);
     }
 

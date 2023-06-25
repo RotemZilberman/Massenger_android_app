@@ -1,0 +1,119 @@
+.sidebar {
+  height: 90vh; /* set the height of the chat container */
+  
+  background-color: transparent; /* set the background color */
+  border: none; /* add a border */
+  padding: 0px; /* cancele padding */
+  border-bottom: blue; /* add a border */
+}
+.sidebar-chats {
+  overflow-y: scroll; /* enable scrolling */
+}
+.active {
+  background-color: #f5f5f5; /* set the background color */
+}
+
+.sidebar-header {
+  border:none;
+  display: flex; /* display the elements as a flexbox */
+  justify-content: space-between; /* space the elements evenly */
+  align-items: center; /* align the elements to the center */
+  background-color: transparent; /* set the background color */
+  height: min-content; /* set the height */
+  /*add button border in the color red and add to him gray shadow*/
+  border-bottom: 1px solid rgba(196, 26, 239, 0);
+  box-shadow: inset 0 -1.2px 0 rgba(204, 93, 232, 0.388);
+}
+
+.chat {
+  display: flex; /* display the elements as a flexbox */
+  align-items: center; /* align the elements to the center */
+  padding: 5px; /* add padding */
+  cursor: pointer; /* set the cursor to pointer */
+  border-bottom: 1px solid #f6f6f6; /* add a border */
+}
+
+.chat:hover {
+  background-color: #bfbfbf3e; /* set the background color */
+}
+.chat-avatar {
+  margin-right: 20px; /* add some space */
+}
+.sidebar-search {
+  margin-top: 10px; /* add some space */
+  border-radius: 10px 10px 0px 0px; /* round the corners */
+  border: 10px; /* remove the border */
+}
+#search {
+  border-radius: 0px 10px 10px 0px; /* round the corners */
+  border-color: #704478;
+}
+#searchBox{
+  border-radius: 20px 0px 0px 20px; /* round the corners */
+  border:none;
+  height: 35px;
+  padding-left: 10px;
+  width: 100%;
+  color: #7e7e7e;
+}
+#searchBox::placeholder{
+  color: #7e7e7e;
+}
+#cancelSearch{
+  background-color: white;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  padding-right: 15px;
+  height: 35px;
+  align-items: center;
+  color: #7e7e7e;
+}
+#searchGroup{
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(0px 0px 2px rgba(204, 93, 232, 0.388));
+}
+#search_input{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#archive-button {
+  margin-top: 10px;
+  padding: 0.2rem;
+  border:none;
+  width: 100%;
+  background-color: #a822ca9e;
+  color: #ffffff;
+  text-shadow: #5c005f 0px 2px 4px;
+  /* color:#4b4b4b */
+}
+#archive-button:hover {
+  background-color: #a822ca;
+}
+.toast{
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: rgba(167, 79, 190, 0.697) 0px 7px 29px 0px;
+}
+.chat-info{
+  white-space: nowrap; /* prevent text from wrapping */
+  overflow: hidden; /* hide text that overflows the container */
+}
+.chatText {
+  overflow: hidden; /* hide text that overflows the container */
+  text-overflow: ellipsis;
+  margin-top: 0px; /* remove the margin */
+  margin-bottom: 0px; /* remove the margin */
+  font-size: 14px; /* set the font size */
+  font-weight: bold; /* set the font weight */
+}
+#lastMassage{
+  font-size: 12px; /* set the font size */
+  color: #7e7e7e;
+  font-weight: normal;
+}
+.chat-time {
+  font-size: 12px;
+  color: black;
+  margin-left: auto;
+}

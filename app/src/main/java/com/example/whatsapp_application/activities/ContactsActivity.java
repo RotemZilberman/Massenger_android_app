@@ -42,7 +42,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
 
         TextView userNameView = findViewById(R.id.userNameTv);
 
-        userNameView.setText(MyApplication.getUser().getUsername());
+        userNameView.setText(MyApplication.getUserName());
         String image = MyApplication.getUser().getProfilePic();
         String base64Image = image.substring(image.indexOf(',') + 1);
         profilePic = findViewById(R.id.userProfilePic);
@@ -104,7 +104,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
         intent.putExtra("displayname", chat.getUser().getDisplayName());
         MyApplication.setBase64Image(chat.getUser().getProfilePic());
         // Add more data if needed
-        startActivity(intent);
 
+        startActivity(intent);
     }
 }
