@@ -63,9 +63,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChanged(String newValue) {
                 if (newValue != null) { //  user exists
-                    MyApplication.setToken("Bearer " + newValue);
-//                    MyApplication.setFireBaseToken(MyApplication.getFireBaseToken());
-
+                    MyApplication.setToken(newValue);
                     MutableLiveData<LoginDetail> details = new MutableLiveData<>();
                     details.observe(MainActivity.this, new Observer<LoginDetail>() {   // when getting details of the user
                         @Override
