@@ -80,10 +80,9 @@ public class ContactsAdapter  extends RecyclerView.Adapter<ContactsAdapter.Conta
                     }
                 }
             });
-
-            // convert the string to a bitmap
-            if (false && image != null) {
-                byte[] decodedString = Base64.decode(image, Base64.DEFAULT);
+            if (image != null && !image.equals("pic")) {
+                String base64Image = image.substring(image.indexOf(",") + 1);
+                byte[] decodedString = Base64.decode(base64Image, Base64.DEFAULT);
                 Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
                 holder.contactImage.setImageBitmap(bitmap);
             }

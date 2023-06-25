@@ -52,12 +52,12 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 app:layout_constraintLeft_toRightOf="@+id/userProfilePic"
-                app:layout_constraintRight_toLeftOf="@+id/addContactBtn"/>
+                app:layout_constraintRight_toLeftOf="@+id/settingsBtn"/>
 
 
 
             <ImageButton
-                android:id="@+id/addContactBtn"
+                android:id="@+id/settingsBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -96,6 +96,17 @@
             </androidx.recyclerview.widget.RecyclerView>
         </ScrollView>
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addContactBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Add contact"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:backgroundTint="#22A1C8"
+            app:srcCompat="@drawable/person_icon2"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

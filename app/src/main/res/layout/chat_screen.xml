@@ -92,12 +92,13 @@
             app:layout_constraintLeft_toLeftOf="parent">
 
             <ImageButton
-                android:id="@+id/searchBtn"
+                android:id="@+id/emojiBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:contentDescription="Emoji button"
                 android:background="#FFFFFF"
                 android:radius="100dp"
-                android:src="@drawable/person_icon"
+                android:src="@drawable/emoji_icon_foreground"
                 app:layout_constraintLeft_toLeftOf="parent" />
 
             <EditText
@@ -106,23 +107,26 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_weight="1"
-                android:background="#FFFFFF"
-                android:gravity="left"
+                android:padding="3dp"
                 android:hint="Search..."
                 android:inputType="text"
                 android:radius="100dp"
                 app:flow_verticalAlign="center"
-                app:layout_constraintLeft_toRightOf="@+id/searchBtn"
-                app:layout_constraintRight_toLeftOf="@+id/sendButton" />
+                app:layout_constraintLeft_toRightOf="@+id/emojiBtn"
+                app:layout_constraintRight_toLeftOf="@+id/sendButton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/black"
+                android:background="@drawable/edittext_border"/>
 
             <ImageButton
                 android:id="@+id/sendButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"
+                android:contentDescription="Send button"
                 android:radius="100dp"
-                android:src="@drawable/person_icon"
+                android:src="@drawable/send_icon_foreground"
                 app:layout_constraintRight_toRightOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

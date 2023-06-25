@@ -8,6 +8,7 @@ import com.example.whatsapp_application.entities.Chat;
 import com.example.whatsapp_application.entities.ChatRequest;
 import com.example.whatsapp_application.entities.CompressChat;
 import com.example.whatsapp_application.entities.DetailedChat;
+import com.example.whatsapp_application.entities.ServerAddress;
 import com.example.whatsapp_application.room.ChatDao;
 
 import java.util.ArrayList;
@@ -27,7 +28,7 @@ public class ChatApi {
 
     public ChatApi(ChatDao chatDao) {
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.0.2.2:5000/")
+                .baseUrl(ServerAddress.getAddress())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         webServiceAPI = retrofit.create(WebServiceApi.class);
