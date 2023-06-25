@@ -92,7 +92,6 @@ public class ChatActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Error loading messages", Toast.LENGTH_SHORT).show();
                 return;
             }
-//            Collections.reverse(messages); // Reverse the order of messages
             adapter.setMessages(messages);
             recyclerView.scrollToPosition(adapter.getItemCount() - 1);
         });
