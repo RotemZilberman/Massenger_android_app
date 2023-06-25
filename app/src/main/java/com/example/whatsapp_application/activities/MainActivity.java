@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+//
         token.observe(this, new Observer<String>() { //  if there is a remembered token
             @Override
             public void onChanged(String newValue) {
