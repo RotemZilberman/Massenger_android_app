@@ -1,0 +1,385 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.whatsapp_application"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:9:5-65
+15-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:10:5-67
+16-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:10:22-64
+17
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:24:5-79
+20-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:24:22-76
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+21-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
+22-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:26:22-65
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+23-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+24    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+24-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/5279b87ec8e2e974dab93e2692e602a6/transformed/play-services-measurement-api-21.1.1/AndroidManifest.xml:25:5-79
+24-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/5279b87ec8e2e974dab93e2692e602a6/transformed/play-services-measurement-api-21.1.1/AndroidManifest.xml:25:22-76
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:26:22-107
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.whatsapp_application.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.whatsapp_application.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:12:5-64:19
+34        android:name="com.example.whatsapp_application.activities.MyApplication"
+34-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:13:9-49
+35        android:allowBackup="true"
+35-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:14:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:15:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:16:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:17:9-43
+42        android:label="@string/app_name"
+42-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:18:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:19:9-54
+44        android:supportsRtl="true"
+44-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:20:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.Whatsapp_Application"
+46-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:21:9-58
+47        android:usesCleartextTraffic="true" >
+47-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:22:9-44
+48        <service
+48-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:25:9-32:19
+49            android:name="com.example.whatsapp_application.services.FireBaseService"
+49-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:26:13-53
+50            android:enabled="true"
+50-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:27:13-35
+51            android:exported="true" >
+51-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:28:13-36
+52            <intent-filter>
+52-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:29:13-31:29
+53                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+53-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:17-78
+53-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:25-75
+54            </intent-filter>
+55        </service>
+56
+57        <activity
+57-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:34:9-42:20
+58            android:name="com.example.whatsapp_application.activities.MainActivity"
+58-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:35:13-52
+59            android:exported="true" >
+59-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:36:13-36
+60            <intent-filter>
+60-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:37:13-41:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:38:17-69
+61-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:38:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:40:17-77
+63-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:40:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:43:9-51:20
+67            android:name="com.example.whatsapp_application.activities.SignUpActivity"
+67-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:44:13-54
+68            android:exported="false" >
+68-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:45:13-37
+69            <intent-filter>
+69-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:46:13-50:29
+70                <action android:name="android.intent.action.PICK" />
+70-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:47:17-69
+70-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:47:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:49:17-76
+72-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:49:27-73
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:52:9-54:40
+76            android:name="com.example.whatsapp_application.activities.ContactsActivity"
+76-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:53:13-56
+77            android:exported="false" />
+77-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:54:13-37
+78        <activity
+78-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:55:9-57:40
+79            android:name="com.example.whatsapp_application.activities.ChatActivity"
+79-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:56:13-52
+80            android:exported="false" />
+80-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:57:13-37
+81        <activity
+81-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:58:9-60:40
+82            android:name="com.example.whatsapp_application.activities.AddContactActivity"
+82-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:59:13-58
+83            android:exported="false" />
+83-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:60:13-37
+84        <activity
+84-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:61:9-63:40
+85            android:name="com.example.whatsapp_application.activities.SettingsActivity"
+85-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:62:13-56
+86            android:exported="false" />
+86-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:63:13-37
+87
+88        <service
+88-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:28:9-34:19
+89            android:name="com.google.firebase.components.ComponentDiscoveryService"
+89-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:29:13-84
+90            android:directBootAware="true"
+90-->[com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.gradle/caches/transforms-3/ecb169b391784bc4fc828d19c55e20b6/transformed/firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:30:13-37
+92            <meta-data
+92-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+93                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+93-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:28:13-30:85
+96                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+96-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:29:17-126
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:30:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+99                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+99-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-config-ktx:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/3c255493eb263ee76c02a703acad5355/transformed/firebase-config-ktx-21.4.0/AndroidManifest.xml:14:13-16:85
+102                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseRemoteConfigKtxRegistrar"
+102-->[com.google.firebase:firebase-config-ktx:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/3c255493eb263ee76c02a703acad5355/transformed/firebase-config-ktx-21.4.0/AndroidManifest.xml:15:17-132
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-config-ktx:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/3c255493eb263ee76c02a703acad5355/transformed/firebase-config-ktx-21.4.0/AndroidManifest.xml:16:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/rotemzilberman/.gradle/caches/transforms-3/d96ed7fda22e9417301b19b4745187aa/transformed/firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+105                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+105-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/rotemzilberman/.gradle/caches/transforms-3/d96ed7fda22e9417301b19b4745187aa/transformed/firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/rotemzilberman/.gradle/caches/transforms-3/d96ed7fda22e9417301b19b4745187aa/transformed/firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-config:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/d7132955cdeb99439439b2d976721161/transformed/firebase-config-21.4.0/AndroidManifest.xml:31:13-33:85
+108                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+108-->[com.google.firebase:firebase-config:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/d7132955cdeb99439439b2d976721161/transformed/firebase-config-21.4.0/AndroidManifest.xml:32:17-117
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-config:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/d7132955cdeb99439439b2d976721161/transformed/firebase-config-21.4.0/AndroidManifest.xml:33:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/5279b87ec8e2e974dab93e2692e602a6/transformed/play-services-measurement-api-21.1.1/AndroidManifest.xml:31:13-33:85
+111                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+111-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/5279b87ec8e2e974dab93e2692e602a6/transformed/play-services-measurement-api-21.1.1/AndroidManifest.xml:32:17-139
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/5279b87ec8e2e974dab93e2692e602a6/transformed/play-services-measurement-api-21.1.1/AndroidManifest.xml:33:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-installations:17.1.3] /Users/rotemzilberman/.gradle/caches/transforms-3/db1cbb4cac437172ad1079e45f9ea1c0/transformed/firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+114                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+114-->[com.google.firebase:firebase-installations:17.1.3] /Users/rotemzilberman/.gradle/caches/transforms-3/db1cbb4cac437172ad1079e45f9ea1c0/transformed/firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-installations:17.1.3] /Users/rotemzilberman/.gradle/caches/transforms-3/db1cbb4cac437172ad1079e45f9ea1c0/transformed/firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/rotemzilberman/.gradle/caches/transforms-3/317e4a7e317cce13ac3f58cc767e2c71/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:14:13-16:85
+117                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+117-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/rotemzilberman/.gradle/caches/transforms-3/317e4a7e317cce13ac3f58cc767e2c71/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:15:17-113
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/rotemzilberman/.gradle/caches/transforms-3/317e4a7e317cce13ac3f58cc767e2c71/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:16:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-abt:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/fd153eff1f2659038537ba948ae2f258/transformed/firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+120                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+120-->[com.google.firebase:firebase-abt:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/fd153eff1f2659038537ba948ae2f258/transformed/firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-abt:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/fd153eff1f2659038537ba948ae2f258/transformed/firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+122        </service>
+123        <service
+123-->[androidx.room:room-runtime:2.4.2] /Users/rotemzilberman/.gradle/caches/transforms-3/1e2b5e11b774594617186a2be14bab87/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+124            android:name="androidx.room.MultiInstanceInvalidationService"
+124-->[androidx.room:room-runtime:2.4.2] /Users/rotemzilberman/.gradle/caches/transforms-3/1e2b5e11b774594617186a2be14bab87/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+125            android:directBootAware="true"
+125-->[androidx.room:room-runtime:2.4.2] /Users/rotemzilberman/.gradle/caches/transforms-3/1e2b5e11b774594617186a2be14bab87/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+126            android:exported="false" />
+126-->[androidx.room:room-runtime:2.4.2] /Users/rotemzilberman/.gradle/caches/transforms-3/1e2b5e11b774594617186a2be14bab87/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+127
+128        <receiver
+128-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+129            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+129-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+130            android:exported="true"
+130-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+131            android:permission="com.google.android.c2dm.permission.SEND" >
+131-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+132            <intent-filter>
+132-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:35:13-37:29
+133                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+133-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:36:17-81
+133-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:36:25-78
+134            </intent-filter>
+135        </receiver>
+136        <!--
+137             FirebaseMessagingService performs security checks at runtime,
+138             but set to not exported to explicitly avoid allowing another app to call it.
+139        -->
+140        <service
+140-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+141            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+141-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+144            <intent-filter android:priority="-500" >
+144-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:29:13-31:29
+145                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+145-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:17-78
+145-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:25-75
+146            </intent-filter>
+147        </service>
+148
+149        <activity
+149-->[com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+150-->[com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+153
+154        <provider
+154-->[com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.gradle/caches/transforms-3/ecb169b391784bc4fc828d19c55e20b6/transformed/firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+155            android:name="com.google.firebase.provider.FirebaseInitProvider"
+155-->[com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.gradle/caches/transforms-3/ecb169b391784bc4fc828d19c55e20b6/transformed/firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+156            android:authorities="com.example.whatsapp_application.firebaseinitprovider"
+156-->[com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.gradle/caches/transforms-3/ecb169b391784bc4fc828d19c55e20b6/transformed/firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+157            android:directBootAware="true"
+157-->[com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.gradle/caches/transforms-3/ecb169b391784bc4fc828d19c55e20b6/transformed/firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+158            android:exported="false"
+158-->[com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.gradle/caches/transforms-3/ecb169b391784bc4fc828d19c55e20b6/transformed/firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+159            android:initOrder="100" />
+159-->[com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.gradle/caches/transforms-3/ecb169b391784bc4fc828d19c55e20b6/transformed/firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+160
+161        <receiver
+161-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:29:9-33:20
+162            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+162-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:30:13-85
+163            android:enabled="true"
+163-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:31:13-35
+164            android:exported="false" >
+164-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:32:13-37
+165        </receiver>
+166
+167        <service
+167-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:35:9-38:40
+168            android:name="com.google.android.gms.measurement.AppMeasurementService"
+168-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:36:13-84
+169            android:enabled="true"
+169-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:37:13-35
+170            android:exported="false" />
+170-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:38:13-37
+171        <service
+171-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:39:9-43:72
+172            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+172-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:40:13-87
+173            android:enabled="true"
+173-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:41:13-35
+174            android:exported="false"
+174-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:42:13-37
+175            android:permission="android.permission.BIND_JOB_SERVICE" />
+175-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:43:13-69
+176
+177        <meta-data
+177-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fd99a989e0496d4995536a20d74e6077/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+178            android:name="com.google.android.gms.version"
+178-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fd99a989e0496d4995536a20d74e6077/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+179            android:value="@integer/google_play_services_version" />
+179-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fd99a989e0496d4995536a20d74e6077/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+180
+181        <provider
+181-->[androidx.emoji2:emoji2:1.2.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ec78a3e19b521281526537e697beec14/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+182            android:name="androidx.startup.InitializationProvider"
+182-->[androidx.emoji2:emoji2:1.2.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ec78a3e19b521281526537e697beec14/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+183            android:authorities="com.example.whatsapp_application.androidx-startup"
+183-->[androidx.emoji2:emoji2:1.2.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ec78a3e19b521281526537e697beec14/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+184            android:exported="false" >
+184-->[androidx.emoji2:emoji2:1.2.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ec78a3e19b521281526537e697beec14/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+185            <meta-data
+185-->[androidx.emoji2:emoji2:1.2.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ec78a3e19b521281526537e697beec14/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+186                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+186-->[androidx.emoji2:emoji2:1.2.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ec78a3e19b521281526537e697beec14/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+187                android:value="androidx.startup" />
+187-->[androidx.emoji2:emoji2:1.2.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ec78a3e19b521281526537e697beec14/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+188            <meta-data
+188-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rotemzilberman/.gradle/caches/transforms-3/93fbe7503deee8a7eaea5566f25a649c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+189                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+189-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rotemzilberman/.gradle/caches/transforms-3/93fbe7503deee8a7eaea5566f25a649c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+190                android:value="androidx.startup" />
+190-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rotemzilberman/.gradle/caches/transforms-3/93fbe7503deee8a7eaea5566f25a649c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+191        </provider>
+192
+193        <service
+193-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+194            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+194-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+195            android:exported="false" >
+195-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+196            <meta-data
+196-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+197                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+197-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+198                android:value="cct" />
+198-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+199        </service>
+200        <service
+200-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/a8a915ed98e50289f64168a126bb02f7/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+201            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+201-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/a8a915ed98e50289f64168a126bb02f7/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+202            android:exported="false"
+202-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/a8a915ed98e50289f64168a126bb02f7/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+203            android:permission="android.permission.BIND_JOB_SERVICE" >
+203-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/a8a915ed98e50289f64168a126bb02f7/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+204        </service>
+205
+206        <receiver
+206-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/a8a915ed98e50289f64168a126bb02f7/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+207            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+207-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/a8a915ed98e50289f64168a126bb02f7/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+208            android:exported="false" />
+208-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/a8a915ed98e50289f64168a126bb02f7/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+209    </application>
+210
+211</manifest>

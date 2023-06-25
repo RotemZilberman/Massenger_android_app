@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.whatsapp_application.app-mergeDebugResources-35:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/rotemzilberman/.gradle/caches/transforms-3/afcb02c013d3e43008200284e504df0e/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}
