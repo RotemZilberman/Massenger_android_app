@@ -53,7 +53,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
         Toast.makeText(getApplicationContext(), "Password must be 8-24 characters", Toast.LENGTH_SHORT).show();
 
         TextView userNameView = findViewById(R.id.userNameTv);
-        userNameView.setText(MyApplication.getUserName());
+//        userNameView.setText(MyApplication.getUserName());
 
         // set the profile pic
 //
@@ -63,6 +63,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
 //            profilePic.setImageBitmap(bitmap);
 //        }
         contactsViewModel = new ViewModelProvider(this).get(ContactsViewModel.class);
+        MyApplication.setContactsViewModel(contactsViewModel);
 
         RecyclerView lstContacts = findViewById(R.id.lstContacts);
 
@@ -97,6 +98,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
     @Override
     public void onContactClick(Chat chat) {
         Intent intent = new Intent(ContactsActivity.this, ChatActivity.class);
+        MyApplication.setChatId(chat.getId());
         // Pass the necessary data to the ChatActivity
         intent.putExtra("chatId", chat.getId());
         intent.putExtra("displayname", chat.getUser().getDisplayName());

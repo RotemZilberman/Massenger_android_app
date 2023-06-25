@@ -11,14 +11,20 @@ import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 
 import com.example.whatsapp_application.activities.MyApplication;
+import com.example.whatsapp_application.repositories.MessageRepository.ChatRepository;
+import com.example.whatsapp_application.repositories.MessageRepository.MessageRepository;
+import com.example.whatsapp_application.viewmodels.ContactsViewModel;
+import com.example.whatsapp_application.viewmodels.MessageViewModel;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 public class FireBaseService extends FirebaseMessagingService {
+    private ContactsViewModel contactsViewModel;
+    private MessageViewModel messageViewModel;
     public FireBaseService() {
 
-    }
 
+    }
 //    @Override
 //    public void onMessageRecieved(@NonNull RemoteMessage message) {
 //        super.onMessageReceived(message);
@@ -34,9 +40,23 @@ public class FireBaseService extends FirebaseMessagingService {
     @Override
     public void onMessageReceived(@NonNull RemoteMessage message) {
         super.onMessageReceived(message);
-        String chatID = message.getData().get("chatID");
+
+        contactsViewModel = MyApplication.getContactsViewModel();
+        messageViewModel = MyApplication.getMessageViewModel();
+        String currentChatId = MyApplication.getChatId();
+        String chatIdNotification = message.getData().get("chatID");
+        // check if the chat id is the same as the current chat id
+        if (currentChatId == chatIdNotification){
+            // get all the messages
+            messageViewModel.getMessages(currentChatId,MyApplication.getToken());
+        }
+        else {
+            // get all the chats
+            contactsViewModel.getChats(MyApplication.getToken());
+        }
 
         //TODO : chech if current user is in the chat
+
 
 
         // TODO : else load all chats
