@@ -31,7 +31,7 @@ public class MessageRepository {
         messageData.postValue(messageDao.getAllMessages(chatId));
         messageApi.getAllMessages(chatId, token, messageData);
     }
-//
+
     public void ClearMessages() {
         messageDao.clearALL();
     }

@@ -14,6 +14,7 @@ import com.example.whatsapp_application.R;
 import com.example.whatsapp_application.api.FirebaseApi;
 
 import com.example.whatsapp_application.entities.LoginDetail;
+
 import com.example.whatsapp_application.entities.Message;
 import com.example.whatsapp_application.entities.User;
 import com.example.whatsapp_application.repositories.MessageRepository.LoginRepository;
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 if (newValue != null) { //  user exists
                     MyApplication.setToken("Bearer " + newValue);
 //                    MyApplication.setFireBaseToken(MyApplication.getFireBaseToken());
+
                     MutableLiveData<LoginDetail> details = new MutableLiveData<>();
                     details.observe(MainActivity.this, new Observer<LoginDetail>() {   // when getting details of the user
                         @Override
