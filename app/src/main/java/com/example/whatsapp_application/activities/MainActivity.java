@@ -12,6 +12,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 
 import com.example.whatsapp_application.R;
+import com.example.whatsapp_application.api.FirebaseApi;
 import com.example.whatsapp_application.entities.Message;
 import com.example.whatsapp_application.entities.User;
 import com.example.whatsapp_application.repositories.MessageRepository.LoginRepository;
@@ -22,6 +23,7 @@ import com.google.firebase.messaging.FirebaseMessagingService;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+
     private Intent details;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
         FirebaseMessaging.getInstance().getToken().addOnSuccessListener(new OnSuccessListener<String>() {
             @Override
             public void onSuccess(String newToken) {
-                Log.e("newToken", newToken);
+               // set token
+                MyApplication.setFireBaseToken(newToken);
+//                Log.d("token", newToken);
             }
         });
 
@@ -79,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
 
                         if (newValue != null) { //  user exists
                             MyApplication.setUser(newValue);
+                            FirebaseApi firebaseApi = new FirebaseApi();
+                            firebaseApi.sendFirebaseToken(MyApplication.getFireBaseToken(),MyApplication.getUser().getUsername() );
                             startActivity(details);
                             finishAffinity();
                         } else {    //  user does not exist

@@ -30,7 +30,6 @@ public class UserApi {
                     user.postValue(response.body());
                 }
             }
-
             @Override
             public void onFailure(Call<User> call, Throwable t) {
                 user.postValue(null);

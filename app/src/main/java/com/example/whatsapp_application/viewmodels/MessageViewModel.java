@@ -17,6 +17,7 @@ public class MessageViewModel extends ViewModel {
 
     public MessageViewModel() {
         this.messageRepository = new MessageRepository(MyApplication.getContext());
+        MyApplication.setMessageRepository(messageRepository);
         messages = new MutableLiveData<>();
     }
     public LiveData<List<Message>> createMessage(String chatId, String msg, String token) {

@@ -47,4 +47,7 @@ public interface WebServiceApi {
 
     @POST("api/Users")
     Call<Void> createUser(@Body DetailedUser user);
+
+    @POST("api/FirebaseTokens/{username}")
+    Call<Void> sendFirebaseToken(@Body String token,@Path("username") String username);
 }

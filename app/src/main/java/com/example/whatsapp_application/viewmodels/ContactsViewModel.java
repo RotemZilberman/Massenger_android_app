@@ -24,6 +24,8 @@ public class ContactsViewModel extends ViewModel {
         this.chatRepository = new ChatRepository(
             MyApplication.getContext()
         );
+        MyApplication.setChatRepository(chatRepository);
+
         chats = new MutableLiveData<>();
 
     }

@@ -10,20 +10,37 @@ import android.os.IBinder;
 import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 
+import com.example.whatsapp_application.activities.MyApplication;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 public class FireBaseService extends FirebaseMessagingService {
     public FireBaseService() {
 
-
     }
 
+//    @Override
+//    public void onMessageRecieved(@NonNull RemoteMessage message) {
+//        super.onMessageReceived(message);
+//        getFi;
+//
+//    }
 
-
+    @Override
+    public void onNewToken(@NonNull String s) {
+        super.onNewToken(s);
+        MyApplication.setFireBaseToken(s);
+    }
     @Override
     public void onMessageReceived(@NonNull RemoteMessage message) {
         super.onMessageReceived(message);
+        String chatID = message.getData().get("chatID");
+
+        //TODO : chech if current user is in the chat
+
+
+        // TODO : else load all chats
+
         createNotificationChannel();
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "Notification")
                 .setSmallIcon(android.R.drawable.ic_dialog_info)

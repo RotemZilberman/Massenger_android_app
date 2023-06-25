@@ -74,6 +74,7 @@ public class ChatActivity extends AppCompatActivity {
 
                         recyclerView.scrollToPosition(adapter.getItemCount() - 1);
 
+
                         // clean the text
                         messageEditText.setText("");
                     }

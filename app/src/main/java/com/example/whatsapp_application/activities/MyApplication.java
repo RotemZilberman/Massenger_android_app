@@ -4,10 +4,32 @@ import android.app.Application;
 import android.content.Context;
 
 import com.example.whatsapp_application.entities.User;
+import com.example.whatsapp_application.repositories.MessageRepository.ChatRepository;
+import com.example.whatsapp_application.repositories.MessageRepository.MessageRepository;
 
 public class MyApplication extends Application {
+    public static Context context;
+    public static String token;
+    public static User user;
+    private static ChatRepository chatRepository;
 
-        public static String getToken() {
+    public static MessageRepository getMessageRepository() {
+        return messageRepository;
+    }
+
+    private static MessageRepository messageRepository;
+    private static String FireBaseToken;
+    private static String chatId;
+
+    public static ChatRepository getChatRepository() {
+        return chatRepository;
+    }
+
+    public static void setChatRepository(ChatRepository chatRepository) {
+        MyApplication.chatRepository = chatRepository;
+    }
+
+    public static String getToken() {
                 return token;
         }
 
@@ -19,20 +41,41 @@ public class MyApplication extends Application {
                 return user;
         }
 
-        public static Context context;
+
+
+        public static String getChatId() {
+                return chatId;
+        }
+
+        public static void setChatId(String chatId) {
+                MyApplication.chatId = chatId;
+        }
+
+
 
         public static void setContext(Context context) {
                 MyApplication.context = context;
         }
 
-        public static String token;
-        public static User user;
+
+        public static String getFireBaseToken() {
+                return FireBaseToken;
+        }
+
 
         public static Context getContext() {
             return context;
         }
 
-        @Override
+        public static void setFireBaseToken(String newToken) {
+                FireBaseToken = newToken;
+        }
+
+    public static void setMessageRepository(MessageRepository messageRepository) {
+
+    }
+
+    @Override
         public void onCreate() {
                 super.onCreate();
                 context = getApplicationContext();
