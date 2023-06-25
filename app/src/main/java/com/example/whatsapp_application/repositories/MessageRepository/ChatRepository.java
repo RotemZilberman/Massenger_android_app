@@ -32,12 +32,9 @@ public class ChatRepository {
         ChatRequest chatRequest = new ChatRequest(username);
         chatApi.createChat(chatRequest, token, chatData);
     }
-
     public void getChat(String chatId, String token) {
         chatApi.getChat(chatId, token);
     }
-
-
 
     public void deleteChat(String chatId, String token) {
         chatApi.deleteChat(chatId, token);

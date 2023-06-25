@@ -22,7 +22,6 @@ import com.example.whatsapp_application.entities.Message;
 import com.example.whatsapp_application.viewmodels.MessageViewModel;
 
 public class ChatActivity extends AppCompatActivity {
-    //    private MessageViewModel messageViewModel;
     private MessagesAdapter adapter;
     private ImageView senderImageView;
 
@@ -50,6 +49,8 @@ public class ChatActivity extends AppCompatActivity {
             senderImageView.setImageBitmap(bitmap);
         }
         MessageViewModel messageViewModel = new ViewModelProvider(this).get(MessageViewModel.class);
+        MyApplication.setChatId(chatId);
+        MyApplication.setMessageViewModel(messageViewModel);
 
         // set adapter for the recycler view
         RecyclerView recyclerView = findViewById(R.id.lstMessages);
@@ -74,14 +75,12 @@ public class ChatActivity extends AppCompatActivity {
                         adapter.setMessages(messages);
 
                         recyclerView.scrollToPosition(adapter.getItemCount() - 1);
-
                         // clean the text
                         messageEditText.setText("");
                     }
             );
 
         });
-
 
         // add contact button listen
 

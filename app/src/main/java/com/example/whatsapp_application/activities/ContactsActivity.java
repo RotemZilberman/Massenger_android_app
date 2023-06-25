@@ -41,6 +41,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
         setContentView(R.layout.contacts_screen);
 
         TextView userNameView = findViewById(R.id.userNameTv);
+
         userNameView.setText(MyApplication.getUserName());
         String image = MyApplication.getUser().getProfilePic();
         String base64Image = image.substring(image.indexOf(',') + 1);
@@ -53,6 +54,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
         }
 
         contactsViewModel = new ViewModelProvider(this).get(ContactsViewModel.class);
+        MyApplication.setContactsViewModel(contactsViewModel);
 
         RecyclerView lstContacts = findViewById(R.id.lstContacts);
 
@@ -96,6 +98,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
     @Override
     public void onContactClick(Chat chat) {
         Intent intent = new Intent(ContactsActivity.this, ChatActivity.class);
+        MyApplication.setChatId(chat.getId());
         // Pass the necessary data to the ChatActivity
         intent.putExtra("chatId", chat.getId());
         intent.putExtra("displayname", chat.getUser().getDisplayName());
