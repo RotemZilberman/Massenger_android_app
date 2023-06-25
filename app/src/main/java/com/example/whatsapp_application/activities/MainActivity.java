@@ -13,7 +13,6 @@ import androidx.lifecycle.Observer;
 import com.example.whatsapp_application.R;
 import com.example.whatsapp_application.api.FirebaseApi;
 
-import com.example.whatsapp_application.entities.LoginDetail;
 import com.example.whatsapp_application.entities.Message;
 import com.example.whatsapp_application.entities.User;
 import com.example.whatsapp_application.repositories.MessageRepository.LoginRepository;
@@ -35,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
 
         /************************************************/
 
+        FirebaseMessaging.getInstance().getToken().addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String newToken) {
+               // set token
+                MyApplication.setFireBaseToken(newToken);
+//                Log.d("token", newToken);
+            }
+        });
 
         /************************************************/
         setContentView(R.layout.login_screen);
@@ -64,13 +71,11 @@ public class MainActivity extends AppCompatActivity {
             public void onChanged(String newValue) {
                 if (newValue != null) { //  user exists
                     MyApplication.setToken(newValue);
-//                    MyApplication.setFireBaseToken(MyApplication.getFireBaseToken());
                     MutableLiveData<LoginDetail> details = new MutableLiveData<>();
                     details.observe(MainActivity.this, new Observer<LoginDetail>() {   // when getting details of the user
                         @Override
                         public void onChanged(LoginDetail loginDetail) {
                             userRepository.getUser(loginDetail.getUsername(), "Bearer " + token.getValue(), result);
-
                         }
                     });
 
@@ -122,7 +127,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 
     void VerifyLogin(String username, String password, MutableLiveData<User> user) {
         if(!username.isEmpty() && !password.isEmpty()) {
