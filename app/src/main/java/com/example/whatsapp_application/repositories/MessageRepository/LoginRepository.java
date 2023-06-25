@@ -7,6 +7,7 @@ import androidx.lifecycle.MutableLiveData;
 import com.example.whatsapp_application.api.LoginApi;
 import com.example.whatsapp_application.entities.LoginDetail;
 import com.example.whatsapp_application.entities.TokenRequest;
+import com.example.whatsapp_application.entities.User;
 import com.example.whatsapp_application.room.ChatDatabase;
 import com.example.whatsapp_application.room.LoginDetailsDao;
 
@@ -24,6 +25,8 @@ public class LoginRepository {
     public void createToken(String username, String password, MutableLiveData<String> token) {
         TokenRequest tokenRequest = new TokenRequest(username, password);
         loginApi.createToken(tokenRequest, token);
+        loginDetailsDao.clear();
+        loginDetailsDao.insert(new LoginDetail(username, password));
     }
 
     public void LocalCreateToken(MutableLiveData<String> token) {
@@ -34,6 +37,13 @@ public class LoginRepository {
                 loginApi.createToken(tokenRequest, token);
             }
         }).start();
+    }
+
+    public void getLoginInfo(MutableLiveData<LoginDetail> details) {
+        LoginDetail loginDetails = loginDetailsDao.getLoginDetails();
+        if (details != null) {
+            details.setValue(loginDetails);
+        }
     }
 
     public void ClearLoginDetails() {

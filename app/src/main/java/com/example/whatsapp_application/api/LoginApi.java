@@ -3,6 +3,7 @@ package com.example.whatsapp_application.api;
 import androidx.lifecycle.MutableLiveData;
 
 import com.example.whatsapp_application.entities.LoginDetail;
+import com.example.whatsapp_application.entities.ServerAddress;
 import com.example.whatsapp_application.entities.TokenRequest;
 import com.example.whatsapp_application.room.LoginDetailsDao;
 
@@ -21,7 +22,7 @@ public class LoginApi {
 
     public LoginApi(LoginDetailsDao loginDao) {
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.0.2.2:5000/")
+                .baseUrl(ServerAddress.getAddress())
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
