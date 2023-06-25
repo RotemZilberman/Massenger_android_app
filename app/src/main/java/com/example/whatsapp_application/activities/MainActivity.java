@@ -2,6 +2,7 @@
 package com.example.whatsapp_application.activities;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -15,7 +16,9 @@ import com.example.whatsapp_application.entities.Message;
 import com.example.whatsapp_application.entities.User;
 import com.example.whatsapp_application.repositories.MessageRepository.LoginRepository;
 import com.example.whatsapp_application.repositories.MessageRepository.UserRepository;
-
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.messaging.FirebaseMessaging;
+import com.google.firebase.messaging.FirebaseMessagingService;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +26,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        /************************************************/
+
+        FirebaseMessaging.getInstance().getToken().addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String newToken) {
+                Log.e("newToken", newToken);
+            }
+        });
+
+        /************************************************/
         setContentView(R.layout.login_screen);
         MutableLiveData<String> token = new MutableLiveData<>();
         details = new Intent(MyApplication.getContext(), ContactsActivity.class);
