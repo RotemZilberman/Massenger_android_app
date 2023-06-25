@@ -1,0 +1,12 @@
+body {
+  background-image: url(../../public/images/2833951.jpg);
+  background-size: 100%;
+  background-position: center;
+  font-family: "Circular", sans-serif;
+}
+.card {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 #9d239933, 0 6px 20px 0 #9d239933;
+}
