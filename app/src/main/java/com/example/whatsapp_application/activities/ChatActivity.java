@@ -22,6 +22,8 @@ import com.example.whatsapp_application.entities.Message;
 import com.example.whatsapp_application.viewmodels.MessageViewModel;
 
 public class ChatActivity extends AppCompatActivity {
+    RecyclerView recyclerView;
+    private MessageViewModel messageViewModel;
     private MessagesAdapter adapter;
     private ImageView senderImageView;
 
@@ -48,12 +50,12 @@ public class ChatActivity extends AppCompatActivity {
             Bitmap bitmap = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
             senderImageView.setImageBitmap(bitmap);
         }
-        MessageViewModel messageViewModel = new ViewModelProvider(this).get(MessageViewModel.class);
+        messageViewModel = new ViewModelProvider(this).get(MessageViewModel.class);
         MyApplication.setChatId(chatId);
         MyApplication.setMessageViewModel(messageViewModel);
 
         // set adapter for the recycler view
-        RecyclerView recyclerView = findViewById(R.id.lstMessages);
+        recyclerView = findViewById(R.id.lstMessages);
         // create the adapter
         adapter = new MessagesAdapter(this);
         // set the adapter
@@ -95,6 +97,28 @@ public class ChatActivity extends AppCompatActivity {
             recyclerView.scrollToPosition(adapter.getItemCount() - 1);
         });
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        messageViewModel.getMessages(MyApplication.getChatId(), MyApplication.getToken()).observe(this, messages -> {
+            if (messages == null) {
+                Toast.makeText(getApplicationContext(), "Error loading messages", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            adapter.setMessages(messages);
+            recyclerView.scrollToPosition(adapter.getItemCount() - 1);
+            MyApplication.setChatId(getIntent().getStringExtra("chatId"));
+        });
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        MyApplication.setChatId(null);
+        finish();
+    }
+
 }
 
 

@@ -23,6 +23,9 @@ public class FireBaseService extends FirebaseMessagingService {
     private MessageViewModel messageViewModel;
     public FireBaseService() {
 
+        contactsViewModel = MyApplication.getContactsViewModel();
+        messageViewModel = MyApplication.getMessageViewModel();
+
 
     }
 //    @Override
@@ -46,14 +49,22 @@ public class FireBaseService extends FirebaseMessagingService {
         String currentChatId = MyApplication.getChatId();
         String chatIdNotification = message.getData().get("chatID");
         // check if the chat id is the same as the current chat id
-        if (currentChatId == chatIdNotification){
-            // get all the messages
-            messageViewModel.getMessages(currentChatId,MyApplication.getToken());
+        if (currentChatId != null){
+
+            if ( currentChatId.equals(chatIdNotification)) {
+                // get all the messages
+                messageViewModel.getMessages(currentChatId, MyApplication.getToken());
+            }
+            else {
+                // get all the chats
+                contactsViewModel.getChats(MyApplication.getToken());
+            }
         }
         else {
             // get all the chats
             contactsViewModel.getChats(MyApplication.getToken());
         }
+
 
         //TODO : chech if current user is in the chat
 
