@@ -28,12 +28,7 @@ public class FireBaseService extends FirebaseMessagingService {
 
 
     }
-//    @Override
-//    public void onMessageRecieved(@NonNull RemoteMessage message) {
-//        super.onMessageReceived(message);
-//        getFi;
-//
-//    }
+
 
     @Override
     public void onNewToken(@NonNull String s) {
@@ -52,7 +47,6 @@ public class FireBaseService extends FirebaseMessagingService {
         if (currentChatId != null){
 
             if ( currentChatId.equals(chatIdNotification)) {
-                // get all the messages
                 messageViewModel.getMessages(currentChatId, MyApplication.getToken());
             }
             else {
