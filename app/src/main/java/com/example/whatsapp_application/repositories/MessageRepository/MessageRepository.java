@@ -28,7 +28,7 @@ public class MessageRepository {
     }
 
     public void getAllMessages(String chatId, String token, MutableLiveData<List<Message>> messageData) {
-        messageData.setValue(messageDao.getAllMessages(chatId));
+        messageData.postValue(messageDao.getAllMessages(chatId));
         messageApi.getAllMessages(chatId, token, messageData);
     }
 
