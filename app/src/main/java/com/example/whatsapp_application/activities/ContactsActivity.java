@@ -42,7 +42,7 @@ public class ContactsActivity extends AppCompatActivity implements onClickListen
 
         TextView userNameView = findViewById(R.id.userNameTv);
 
-        userNameView.setText(MyApplication.getUser().getUsername());
+        userNameView.setText(MyApplication.getUser().getDisplayName());
         String image = MyApplication.getUser().getProfilePic();
         String base64Image = image.substring(image.indexOf(',') + 1);
         profilePic = findViewById(R.id.userProfilePic);
