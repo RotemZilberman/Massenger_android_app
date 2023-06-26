@@ -43,9 +43,10 @@ npm test
 ## Running the Application
 After the server is running, you can run the application on an emulator or a real device using Android Studio.
 
-# Design
+## Design
 The application is built upon the MVVM (Model-View-ViewModel) architecture, which provides a structured and scalable approach to development. This architectural pattern enables separation of concerns and promotes maintainability.
-![image](https://github.com/RotemZilberman/ass3-programming/assets/112009232/7109ac6b-4089-40a2-9c15-e3e6f74a7a11)
+
+![image](https://github.com/RotemZilberman/ass3-programming/assets/112009232/bf33c439-e1dd-458f-8e99-6de7e652edeb)
 
 To ensure a cohesive and consistent user experience, the application follows a uniform design theme across all screens. This design theme has been carefully crafted to strike a balance between visual aesthetics and intuitive user interactions. The goal is to deliver a polished and engaging interface that aligns with modern design principles.
 
