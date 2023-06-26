@@ -46,5 +46,5 @@ After the server is running, you can run the application on an emulator or a rea
 Design
 The application follows a uniform design theme across all screens. Any substantial design issues or too basic a design will result in a downgrade.
 
-###Note
+### Note
 that the notification must be activated on the device in order to use the application properly and must be connected to Firebase.
