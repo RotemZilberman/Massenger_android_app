@@ -34,12 +34,21 @@
             android:orientation="horizontal"
             app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:layout_constraintTop_toTopOf="parent"
                 android:id="@+id/pictureIv"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/person_icon"
-                app:layout_constraintLeft_toLeftOf="parent" />
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:src="@drawable/person_icon"/>
+
+<!--            <ImageView-->
+<!--                android:id="@+id/pictureIv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/person_icon"-->
+<!--                app:layout_constraintLeft_toLeftOf="parent" />-->
 
             <TextView
                 android:id="@+id/displayNameTv"
