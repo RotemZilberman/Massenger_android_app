@@ -1,6 +1,6 @@
 # Android Chat Application
 
-This repository contains an Android client for a chat system. The application includes all the necessary screens such as Login, Registration, Chat, Add new contact, and Settings. It interacts with a predefined API for functionalities like registration, login, contacts, chats, sending and receiving messages.
+This repository contains an Android client for a chat system. The application includes all the necessary screens such as Login, Registration, Chat, Add new contact, and Settings. It interacts with a predefined API for functionalities like registration, login, contacts, chats, sending and receiving messages. Different technologies are used in the project such as firebase sqlite to use a local database
 
 ## Features
 
@@ -43,8 +43,14 @@ npm test
 ## Running the Application
 After the server is running, you can run the application on an emulator or a real device using Android Studio.
 
-Design
-The application follows a uniform design theme across all screens. Any substantial design issues or too basic a design will result in a downgrade.
+# Design
+The application is built upon the MVVM (Model-View-ViewModel) architecture, which provides a structured and scalable approach to development. This architectural pattern enables separation of concerns and promotes maintainability.
+![image](https://github.com/RotemZilberman/ass3-programming/assets/112009232/7109ac6b-4089-40a2-9c15-e3e6f74a7a11)
 
+To ensure a cohesive and consistent user experience, the application follows a uniform design theme across all screens. This design theme has been carefully crafted to strike a balance between visual aesthetics and intuitive user interactions. The goal is to deliver a polished and engaging interface that aligns with modern design principles.
+
+Furthermore, the application utilizes Firebase Cloud Messaging to incorporate real-time push notifications. This feature enables seamless communication with users by delivering timely updates and notifications directly to their devices. To efficiently manage local data persistence, the application leverages Room, an SQLite-based persistence library. This integration allows for efficient data storage and retrieval, enhancing the overall performance and responsiveness of the app.
+
+In summary, the application adopts the MVVM architecture to ensure a well-structured codebase, while employing Firebase Cloud Messaging and Room in SQLite to enable real-time notifications and efficient data management respectively. The consistent design theme throughout the app guarantees a visually appealing and user-friendly experience.
 ### Note
 that the notification must be activated on the device in order to use the application properly and must be connected to Firebase.
