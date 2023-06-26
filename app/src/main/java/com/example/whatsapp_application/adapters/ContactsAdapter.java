@@ -60,7 +60,7 @@ public class ContactsAdapter  extends RecyclerView.Adapter<ContactsAdapter.Conta
     public void onBindViewHolder(@NonNull ContactsViewHolder holder, int position) {
         if (chats != null) {
             final Chat current = chats.get(position);
-            holder.contactName.setText(current.getUser().getUsername());
+            holder.contactName.setText(current.getUser().getDisplayName());
             if(current.getLastMessage() != null) {
                 holder.lastMessage.setText(current.getLastMessage().getContent());
                 holder.lastMessageTime.setText(current.getLastMessage().getCreated());
