@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.whatsapp_application.R;
 import com.example.whatsapp_application.viewmodels.ContactsViewModel;
@@ -29,16 +30,22 @@ public class AddContactActivity extends AppCompatActivity {
         usernameTextView = findViewById(R.id.usernameAdd);
         Button confirmButton = findViewById(R.id.add_button);
         Button cancleButton = findViewById(R.id.cancel_button);
-
+        MutableLiveData<Integer> success = new MutableLiveData<>();
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String username = usernameTextView.getText().toString().trim();
                 if (!username.isEmpty()) {
-                    contactsViewModel.createChat(username, MyApplication.getToken());
-                    finish();
+                    contactsViewModel.createChat(username, MyApplication.getToken(), success);
                 }
 
+            }
+        });
+        success.observe(this, integer -> {
+            if (integer == 1) {
+                finish();
+            } else {
+                Toast.makeText(AddContactActivity.this, "User not found", Toast.LENGTH_SHORT).show();
             }
         });
         cancleButton.setOnClickListener(new View.OnClickListener() {

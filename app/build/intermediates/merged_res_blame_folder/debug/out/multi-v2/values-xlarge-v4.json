@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.whatsapp_application.app-mergeDebugResources-35:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.whatsapp_application.app-mergeDebugResources-36:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "/Users/rotemzilberman/.gradle/caches/transforms-3/afcb02c013d3e43008200284e504df0e/transformed/appcompat-1.6.1/res/values-xlarge-v4/values-xlarge-v4.xml",

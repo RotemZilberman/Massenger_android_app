@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6531fdc17aa000867677567e6ac9fb05/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/0143e1b3d9f3980ed16d58296f70803f/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ae6309b47a780c466ce15fff837c7c22/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -16,8 +16,11 @@ MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman
 MERGED from [androidx.room:room-runtime:2.4.2] /Users/rotemzilberman/.gradle/caches/transforms-3/1e2b5e11b774594617186a2be14bab87/transformed/room-runtime-2.4.2/AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/99b08880d34afdf6329078d448558781/transformed/firebase-appcheck-interop-17.0.1/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/1cd80b316f69a27ec6499245e24ae527/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/e4f12358d39fa6421493c8e80c6f8aef/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-config-ktx:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/3c255493eb263ee76c02a703acad5355/transformed/firebase-config-ktx-21.4.0/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/66e03b611e503d7befe5910ba90c7b5b/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
@@ -32,8 +35,10 @@ MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/b5bbf4ec07a9a86f4cd093c473cbf677/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ac4f53b07cdb2b6a6573e1667be8228f/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/d63646b5e79f77d822563d062b180484/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/28cdd906b768eaaa95e4d24beff17f7d/transformed/recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.activity:activity:1.6.0] /Users/rotemzilberman/.gradle/caches/transforms-3/9eeee8f6183a9b701cfc30d246e38733/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rotemzilberman/.gradle/caches/transforms-3/63c4a0d83a51f86c7b04fc8f7434de36/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/55c971f8c2482df6ef9258d4f9ad0abe/transformed/integrity-1.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/rotemzilberman/.gradle/caches/transforms-3/484ed5d4d2a508327ff584a80d19a097/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/82348322edc156fafcc09efb02922679/transformed/play-services-measurement-sdk-21.1.1/AndroidManifest.xml:17:1-25:12
@@ -61,6 +66,7 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rotemzilberman/.gradle/caches/
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/3616347f4e7fe4408aa98c02427e8813/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/0fb5a4daff1f6eae43b55782ec1e500b/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2f1b07c75720f9cc67ff8a3ab22ff7bf/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/a121d884c86bed9f1904bca52d41e17a/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rotemzilberman/.gradle/caches/transforms-3/93fbe7503deee8a7eaea5566f25a649c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/rotemzilberman/.gradle/caches/transforms-3/a7e7548bfc834365f6df857fe738e827/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
@@ -78,27 +84,27 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/rotemzilbe
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/427e28da2b1a5bdbf0c8035ac1131f29/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/7eacce3ea6d170a5134fd8c1cd3c7677/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/00bb6f53f7ff7a073eccae9188ab521d/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/879e4cb49a6cd21544b6a90221dd793a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ce9cc8e5f44dd02b01e8d7698b1f4968/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/879e4cb49a6cd21544b6a90221dd793a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/171cb60e7a62725efbfe4cd410219b8d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ca4c58679451f93b06dd27d1c266d079/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6e86879046ed574dd32bba39638dd88f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
 	package
 		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
 		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
 		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-68:12
 		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:11-69
@@ -116,6 +122,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-config:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/d7132955cdeb99439439b2d976721161/transformed/firebase-config-21.4.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-config:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/d7132955cdeb99439439b2d976721161/transformed/firebase-config-21.4.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/5279b87ec8e2e974dab93e2692e602a6/transformed/play-services-measurement-api-21.1.1/AndroidManifest.xml:22:5-67
@@ -124,6 +132,8 @@ MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/rotemzilb
 MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/rotemzilberman/.gradle/caches/transforms-3/db1cbb4cac437172ad1079e45f9ea1c0/transformed/firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/d63646b5e79f77d822563d062b180484/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/d63646b5e79f77d822563d062b180484/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/28cdd906b768eaaa95e4d24beff17f7d/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/28cdd906b768eaaa95e4d24beff17f7d/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/80050d25d6b39b26434bb315f8ba8789/transformed/play-services-measurement-impl-21.1.1/AndroidManifest.xml:23:5-67
@@ -134,8 +144,18 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /User
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
 	android:name
 		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:12:5-76
+MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+	android:name
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:12:22-74
 application
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:12:5-64:19
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:14:5-66:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6531fdc17aa000867677567e6ac9fb05/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6531fdc17aa000867677567e6ac9fb05/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/0143e1b3d9f3980ed16d58296f70803f/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
@@ -152,6 +172,10 @@ MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilb
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:30:5-59:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/99b08880d34afdf6329078d448558781/transformed/firebase-appcheck-interop-17.0.1/AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/99b08880d34afdf6329078d448558781/transformed/firebase-appcheck-interop-17.0.1/AndroidManifest.xml:23:5-20
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
@@ -178,6 +202,8 @@ MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.
 MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/rotemzilberman/.gradle/caches/transforms-3/ecb169b391784bc4fc828d19c55e20b6/transformed/firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ac4f53b07cdb2b6a6573e1667be8228f/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ac4f53b07cdb2b6a6573e1667be8228f/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/55c971f8c2482df6ef9258d4f9ad0abe/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/55c971f8c2482df6ef9258d4f9ad0abe/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/rotemzilberman/.gradle/caches/transforms-3/484ed5d4d2a508327ff584a80d19a097/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/rotemzilberman/.gradle/caches/transforms-3/484ed5d4d2a508327ff584a80d19a097/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:28:5-44:19
@@ -213,97 +239,97 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rotemzilberman/.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:20:9-41
 	android:fullBackupContent
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:18:9-54
 	android:roundIcon
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:19:9-54
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:21:9-54
 	tools:targetApi
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:23:9-29
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:25:9-29
 	android:icon
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:21:9-58
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:23:9-58
 	android:dataExtractionRules
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:15:9-65
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:17:9-65
 	android:usesCleartextTraffic
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:22:9-44
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:13:9-49
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:15:9-49
 service#com.example.whatsapp_application.services.FireBaseService
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:25:9-32:19
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:27:9-34:19
 	android:enabled
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:27:13-35
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:29:13-35
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:28:13-36
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:26:13-53
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:28:13-53
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:29:13-31:29
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:31:13-33:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:17-78
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:25-75
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:32:25-75
 activity#com.example.whatsapp_application.activities.MainActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:34:9-42:20
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:36:9-44:20
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:36:13-36
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:35:13-52
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:37:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:37:13-41:29
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:40:17-77
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:40:27-74
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:42:27-74
 activity#com.example.whatsapp_application.activities.SignUpActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:43:9-51:20
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:45:9-53:20
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:45:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:44:13-54
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:46:13-54
 intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:46:13-50:29
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:48:13-52:29
 action#android.intent.action.PICK
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:47:17-69
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:47:25-66
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:49:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:49:17-76
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:51:17-76
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:49:27-73
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:51:27-73
 activity#com.example.whatsapp_application.activities.ContactsActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:52:9-54:40
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:54:9-56:40
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:54:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:53:13-56
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:55:13-56
 activity#com.example.whatsapp_application.activities.ChatActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:55:9-57:40
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:57:9-59:40
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:57:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:56:13-52
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:58:13-52
 activity#com.example.whatsapp_application.activities.AddContactActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:58:9-60:40
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:60:9-62:40
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:60:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:62:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:59:13-58
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:61:13-58
 activity#com.example.whatsapp_application.activities.SettingsActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:61:9-63:40
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:63:9-65:40
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:63:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:62:13-56
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:64:13-56
 uses-sdk
 INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
@@ -332,10 +358,16 @@ MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilb
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/99b08880d34afdf6329078d448558781/transformed/firebase-appcheck-interop-17.0.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/99b08880d34afdf6329078d448558781/transformed/firebase-appcheck-interop-17.0.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/1cd80b316f69a27ec6499245e24ae527/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/1cd80b316f69a27ec6499245e24ae527/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/e4f12358d39fa6421493c8e80c6f8aef/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/e4f12358d39fa6421493c8e80c6f8aef/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-config-ktx:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/3c255493eb263ee76c02a703acad5355/transformed/firebase-config-ktx-21.4.0/AndroidManifest.xml:5:5-7:41
@@ -364,10 +396,14 @@ MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rotemzilber
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ac4f53b07cdb2b6a6573e1667be8228f/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/d63646b5e79f77d822563d062b180484/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/d63646b5e79f77d822563d062b180484/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/28cdd906b768eaaa95e4d24beff17f7d/transformed/recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/28cdd906b768eaaa95e4d24beff17f7d/transformed/recaptcha-18.1.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.6.0] /Users/rotemzilberman/.gradle/caches/transforms-3/9eeee8f6183a9b701cfc30d246e38733/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.6.0] /Users/rotemzilberman/.gradle/caches/transforms-3/9eeee8f6183a9b701cfc30d246e38733/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rotemzilberman/.gradle/caches/transforms-3/63c4a0d83a51f86c7b04fc8f7434de36/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rotemzilberman/.gradle/caches/transforms-3/63c4a0d83a51f86c7b04fc8f7434de36/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/55c971f8c2482df6ef9258d4f9ad0abe/transformed/integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/55c971f8c2482df6ef9258d4f9ad0abe/transformed/integrity-1.1.0/AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/rotemzilberman/.gradle/caches/transforms-3/484ed5d4d2a508327ff584a80d19a097/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/rotemzilberman/.gradle/caches/transforms-3/484ed5d4d2a508327ff584a80d19a097/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:20:5-44
@@ -422,6 +458,8 @@ MERGED from [androidx.customview:customview:1.1.0] /Users/rotemzilberman/.gradle
 MERGED from [androidx.customview:customview:1.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/0fb5a4daff1f6eae43b55782ec1e500b/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2f1b07c75720f9cc67ff8a3ab22ff7bf/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2f1b07c75720f9cc67ff8a3ab22ff7bf/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/a121d884c86bed9f1904bca52d41e17a/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/a121d884c86bed9f1904bca52d41e17a/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rotemzilberman/.gradle/caches/transforms-3/93fbe7503deee8a7eaea5566f25a649c/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
@@ -456,10 +494,10 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rotemzilberman/.grad
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/7eacce3ea6d170a5134fd8c1cd3c7677/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/00bb6f53f7ff7a073eccae9188ab521d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/00bb6f53f7ff7a073eccae9188ab521d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/879e4cb49a6cd21544b6a90221dd793a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/879e4cb49a6cd21544b6a90221dd793a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ce9cc8e5f44dd02b01e8d7698b1f4968/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ce9cc8e5f44dd02b01e8d7698b1f4968/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/879e4cb49a6cd21544b6a90221dd793a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/879e4cb49a6cd21544b6a90221dd793a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/171cb60e7a62725efbfe4cd410219b8d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/171cb60e7a62725efbfe4cd410219b8d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ca4c58679451f93b06dd27d1c266d079/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
@@ -468,6 +506,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rotemzilb
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6e86879046ed574dd32bba39638dd88f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
 		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
@@ -480,6 +520,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-config:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/d7132955cdeb99439439b2d976721161/transformed/firebase-config-21.4.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-config:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/d7132955cdeb99439439b2d976721161/transformed/firebase-config-21.4.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/5279b87ec8e2e974dab93e2692e602a6/transformed/play-services-measurement-api-21.1.1/AndroidManifest.xml:23:5-79
@@ -488,6 +530,8 @@ MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/rotemzilb
 MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/rotemzilberman/.gradle/caches/transforms-3/db1cbb4cac437172ad1079e45f9ea1c0/transformed/firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/d63646b5e79f77d822563d062b180484/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rotemzilberman/.gradle/caches/transforms-3/d63646b5e79f77d822563d062b180484/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/28cdd906b768eaaa95e4d24beff17f7d/transformed/recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/28cdd906b768eaaa95e4d24beff17f7d/transformed/recaptcha-18.1.2/AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/98e0c3f8226cccb3ce2822fb0bf1bb3e/transformed/play-services-measurement-21.1.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/80050d25d6b39b26434bb315f8ba8789/transformed/play-services-measurement-impl-21.1.1/AndroidManifest.xml:24:5-79
@@ -506,6 +550,10 @@ MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilb
 MERGED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:25:9-31:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:52:9-58:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-config-ktx:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/3c255493eb263ee76c02a703acad5355/transformed/firebase-config-ktx-21.4.0/AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-config-ktx:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/3c255493eb263ee76c02a703acad5355/transformed/firebase-config-ktx-21.4.0/AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/rotemzilberman/.gradle/caches/transforms-3/d96ed7fda22e9417301b19b4745187aa/transformed/firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
@@ -550,10 +598,6 @@ ADDED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilbe
 		ADDED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:30:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging-ktx:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/96596055b5a1fd774a9f7149d40bedfb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:29:17-126
-uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/rotemzilberman/.gradle/caches/transforms-3/5279b87ec8e2e974dab93e2692e602a6/transformed/play-services-measurement-api-21.1.1/AndroidManifest.xml:24:5-68
@@ -602,6 +646,62 @@ ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman
 		ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8103a9e245eefcf1caa1026c3f6d4616/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:12:17-116
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/8e87887ac51411ce76ce2ad3fc02e4df/transformed/firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/fee21437bdc6e1fffc711ebabee90e9b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 	android:exported
