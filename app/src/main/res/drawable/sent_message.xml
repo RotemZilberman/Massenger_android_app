@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 <solid android:color="#a951d5" /> <!-- Background color of the layout -->
-<corners android:radius="60dp"
+<corners android:radius="80dp"
     android:topRightRadius="0dp"/> <!-- Radius to define the amount of rounding for the corners -->
 </shape>
