@@ -67,6 +67,7 @@
                     android:layout_marginBottom="30dp"
                     android:padding="10sp"
                     android:drawablePadding="8dp"
+                    android:inputType="textPassword"
                     android:drawableStart="@drawable/password_icon" />
 
                 <Button

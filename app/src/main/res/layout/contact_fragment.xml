@@ -22,14 +22,6 @@
             app:layout_constraintLeft_toLeftOf="parent"
             android:src="@drawable/picture_icon"/>
 
-
-<!--        <ImageView-->
-<!--            android:id="@+id/contactImage"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:src="@drawable/person_icon"-->
-<!--            app:layout_constraintLeft_toLeftOf="parent"/>-->
-
         <LinearLayout
             android:id="@+id/detailsLv"
             android:layout_width="wrap_content"

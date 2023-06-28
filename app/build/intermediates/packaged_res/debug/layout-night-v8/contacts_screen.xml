@@ -34,34 +34,46 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="20dp">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/userProfilePic"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/person_icon"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:src="@drawable/person_icon"/>
+
+<!--            <ImageView-->
+<!--                android:id="@+id/userProfilePic"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/person_icon"-->
+<!--                app:layout_constraintLeft_toLeftOf="parent"/>-->
 
             <TextView
                 android:id="@+id/userNameTv"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:text="User Name"
+                android:maxLines="1"
+                android:ellipsize="end"
                 android:textSize="20sp"
                 android:textColor="#a951d5"
                 android:gravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                app:layout_constraintLeft_toRightOf="@+id/userProfilePic"
-                app:layout_constraintRight_toLeftOf="@+id/settingsBtn"/>
-
-
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintStart_toEndOf="@id/userProfilePic"
+                app:layout_constraintEnd_toStartOf="@id/settingsBtn"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
 
             <ImageButton
                 android:id="@+id/settingsBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 app:layout_constraintRight_toRightOf="parent"
-                android:src="@drawable/person_icon"
+                android:src="@drawable/settings_icon_foreground"
                 android:background="#1E2861"
                 android:radius="100dp"
                 android:contentDescription="TODO" />

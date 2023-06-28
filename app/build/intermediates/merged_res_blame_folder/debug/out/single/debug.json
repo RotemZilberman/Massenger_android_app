@@ -236,6 +236,10 @@
         "source": "com.example.whatsapp_application.app-main-39:/mipmap-hdpi/send_icon.png"
     },
     {
+        "merged": "com.example.whatsapp_application.app-merged_res-37:/drawable_settings_icon_foreground.xml.flat",
+        "source": "com.example.whatsapp_application.app-main-39:/drawable/settings_icon_foreground.xml"
+    },
+    {
         "merged": "com.example.whatsapp_application.app-merged_res-37:/drawable_grey_background.png.flat",
         "source": "com.example.whatsapp_application.app-main-39:/drawable/grey_background.png"
     },

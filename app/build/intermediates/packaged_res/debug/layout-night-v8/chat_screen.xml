@@ -33,24 +33,38 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="20dp">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/pictureIv"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/person_icon"
-                app:layout_constraintLeft_toLeftOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:src="@drawable/person_icon"/>
+
+<!--            <ImageView-->
+<!--                android:id="@+id/pictureIv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/person_icon"-->
+<!--                app:layout_constraintLeft_toLeftOf="parent"/>-->
 
             <TextView
                 android:id="@+id/displayNameTv"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toTopOf="parent"
-                app:flow_horizontalAlign="center"
                 android:padding="10dp"
-                android:textAlignment="center"
                 android:text="Chat"
+                android:layout_marginEnd="48dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textAlignment="center"
+                android:textColor="#a951d5"
                 android:textSize="25sp"
-                android:textColor="#a951d5"/>
+                app:flow_horizontalAlign="center"
+                app:layout_constraintStart_toEndOf="@+id/pictureIv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -71,18 +85,16 @@
             android:layout_marginTop="5dp"
             android:scaleType="centerCrop" />
 
-        <ScrollView
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lstMessages"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/underlineView">
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/lstMessages"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_marginTop="10dp"
-                app:layout_constraintTop_toBottomOf="@+id/underlineView"
-                app:layout_constraintBottom_toTopOf="@+id/searchLayout" />
-        </ScrollView>
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/underlineView"
+            app:layout_constraintBottom_toTopOf="@+id/searchLayout" />
+
+
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/searchLayout"
