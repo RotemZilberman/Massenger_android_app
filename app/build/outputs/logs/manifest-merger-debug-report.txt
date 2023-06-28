@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6531fdc17aa000867677567e6ac9fb05/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/0143e1b3d9f3980ed16d58296f70803f/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ae6309b47a780c466ce15fff837c7c22/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -83,37 +83,37 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/171cb60e7a62725efbfe4cd410219b8d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ca4c58679451f93b06dd27d1c266d079/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6e86879046ed574dd32bba39638dd88f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
 	package
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:1-66:12
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:5:5-7:36
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:5:5-7:36
 	android:required
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:7:9-33
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:7:9-33
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:6:9-47
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:6:9-47
 uses-permission#android.permission.CAMERA
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:9:5-65
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:9:22-62
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:9:22-62
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:10:5-67
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-config:21.4.0] /Users/rotemzilberman/.gradle/caches/transforms-3/d7132955cdeb99439439b2d976721161/transformed/firebase-config-21.4.0/AndroidManifest.xml:25:5-67
@@ -133,9 +133,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /U
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/rotemzilberman/.gradle/caches/transforms-3/09f0b5f3d92ebde132441b8d30df2578/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:10:22-64
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:10:22-64
 application
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:12:5-64:19
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:12:5-64:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6531fdc17aa000867677567e6ac9fb05/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6531fdc17aa000867677567e6ac9fb05/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/0143e1b3d9f3980ed16d58296f70803f/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
@@ -213,101 +213,101 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rotemzilberman/.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:18:9-41
 	android:fullBackupContent
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:16:9-54
 	android:roundIcon
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:19:9-54
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:19:9-54
 	tools:targetApi
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:23:9-29
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:23:9-29
 	android:icon
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:21:9-58
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:21:9-58
 	android:dataExtractionRules
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:15:9-65
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:15:9-65
 	android:usesCleartextTraffic
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:22:9-44
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:22:9-44
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:13:9-49
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:13:9-49
 service#com.example.whatsapp_application.services.FireBaseService
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:25:9-32:19
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:25:9-32:19
 	android:enabled
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:27:13-35
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:27:13-35
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:28:13-36
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:26:13-53
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:26:13-53
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:29:13-31:29
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:29:13-31:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:17-78
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:17-78
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:25-75
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:25-75
 activity#com.example.whatsapp_application.activities.MainActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:34:9-42:20
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:34:9-42:20
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:36:13-36
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:35:13-52
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:35:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:37:13-41:29
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:40:17-77
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:40:27-74
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:40:27-74
 activity#com.example.whatsapp_application.activities.SignUpActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:43:9-51:20
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:43:9-51:20
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:45:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:44:13-54
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:44:13-54
 intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:46:13-50:29
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:46:13-50:29
 action#android.intent.action.PICK
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:47:17-69
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:47:25-66
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:47:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:49:17-76
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:49:17-76
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:49:27-73
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:49:27-73
 activity#com.example.whatsapp_application.activities.ContactsActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:52:9-54:40
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:52:9-54:40
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:54:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:53:13-56
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:53:13-56
 activity#com.example.whatsapp_application.activities.ChatActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:55:9-57:40
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:55:9-57:40
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:57:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:56:13-52
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:56:13-52
 activity#com.example.whatsapp_application.activities.AddContactActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:58:9-60:40
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:58:9-60:40
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:60:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:59:13-58
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:59:13-58
 activity#com.example.whatsapp_application.activities.SettingsActivity
-ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:61:9-63:40
+ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:61:9-63:40
 	android:exported
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:63:13-37
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:62:13-56
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:62:13-56
 uses-sdk
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6531fdc17aa000867677567e6ac9fb05/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6531fdc17aa000867677567e6ac9fb05/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/rotemzilberman/.gradle/caches/transforms-3/0143e1b3d9f3980ed16d58296f70803f/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
@@ -466,16 +466,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rotemzilberman/.gr
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rotemzilberman/.gradle/caches/transforms-3/ca4c58679451f93b06dd27d1c266d079/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6e86879046ed574dd32bba39638dd88f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rotemzilberman/.gradle/caches/transforms-3/6e86879046ed574dd32bba39638dd88f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:24:5-79

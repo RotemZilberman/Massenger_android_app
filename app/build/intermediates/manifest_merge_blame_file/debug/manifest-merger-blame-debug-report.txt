@@ -6,23 +6,23 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+8-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml
+9-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml
 10
 11    <uses-feature
-11-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:5:5-7:36
+11-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:5:5-7:36
 12        android:name="android.hardware.camera"
-12-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:6:9-47
+12-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:6:9-47
 13        android:required="false" />
-13-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:7:9-33
+13-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:7:9-33
 14
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:9:5-65
-15-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:9:22-62
+15-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:9:5-65
+15-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:9:22-62
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:10:5-67
-16-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:10:22-64
+16-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:10:5-67
+16-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:10:22-64
 17
 18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -57,106 +57,106 @@
 31-->[androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 32
 33    <application
-33-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:12:5-64:19
+33-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:12:5-64:19
 34        android:name="com.example.whatsapp_application.activities.MyApplication"
-34-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:13:9-49
+34-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:13:9-49
 35        android:allowBackup="true"
-35-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:14:9-35
+35-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:14:9-35
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 36-->[androidx.core:core:1.9.0] /Users/rotemzilberman/.gradle/caches/transforms-3/2ed30a9306a58db86b4daf039e5adc0b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 37        android:dataExtractionRules="@xml/data_extraction_rules"
-37-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:15:9-65
+37-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:15:9-65
 38        android:debuggable="true"
 39        android:extractNativeLibs="false"
 40        android:fullBackupContent="@xml/backup_rules"
-40-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:16:9-54
+40-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:16:9-54
 41        android:icon="@mipmap/ic_launcher"
-41-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:17:9-43
+41-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:17:9-43
 42        android:label="@string/app_name"
-42-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:18:9-41
+42-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:18:9-41
 43        android:roundIcon="@mipmap/ic_launcher_round"
-43-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:19:9-54
+43-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:19:9-54
 44        android:supportsRtl="true"
-44-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:20:9-35
+44-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:20:9-35
 45        android:testOnly="true"
 46        android:theme="@style/Theme.Whatsapp_Application"
-46-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:21:9-58
+46-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:21:9-58
 47        android:usesCleartextTraffic="true" >
-47-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:22:9-44
+47-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:22:9-44
 48        <service
-48-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:25:9-32:19
+48-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:25:9-32:19
 49            android:name="com.example.whatsapp_application.services.FireBaseService"
-49-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:26:13-53
+49-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:26:13-53
 50            android:enabled="true"
-50-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:27:13-35
+50-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:27:13-35
 51            android:exported="true" >
-51-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:28:13-36
+51-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:28:13-36
 52            <intent-filter>
-52-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:29:13-31:29
+52-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:29:13-31:29
 53                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-53-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:17-78
-53-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:25-75
+53-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:17-78
+53-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:25-75
 54            </intent-filter>
 55        </service>
 56
 57        <activity
-57-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:34:9-42:20
+57-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:34:9-42:20
 58            android:name="com.example.whatsapp_application.activities.MainActivity"
-58-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:35:13-52
+58-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:35:13-52
 59            android:exported="true" >
-59-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:36:13-36
+59-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:36:13-36
 60            <intent-filter>
-60-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:37:13-41:29
+60-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:37:13-41:29
 61                <action android:name="android.intent.action.MAIN" />
-61-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:38:17-69
-61-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:38:25-66
+61-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:38:17-69
+61-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:38:25-66
 62
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:40:17-77
-63-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:40:27-74
+63-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:40:17-77
+63-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:40:27-74
 64            </intent-filter>
 65        </activity>
 66        <activity
-66-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:43:9-51:20
+66-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:43:9-51:20
 67            android:name="com.example.whatsapp_application.activities.SignUpActivity"
-67-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:44:13-54
+67-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:44:13-54
 68            android:exported="false" >
-68-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:45:13-37
+68-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:45:13-37
 69            <intent-filter>
-69-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:46:13-50:29
+69-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:46:13-50:29
 70                <action android:name="android.intent.action.PICK" />
-70-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:47:17-69
-70-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:47:25-66
+70-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:47:17-69
+70-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:47:25-66
 71
 72                <category android:name="android.intent.category.DEFAULT" />
-72-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:49:17-76
-72-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:49:27-73
+72-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:49:17-76
+72-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:49:27-73
 73            </intent-filter>
 74        </activity>
 75        <activity
-75-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:52:9-54:40
+75-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:52:9-54:40
 76            android:name="com.example.whatsapp_application.activities.ContactsActivity"
-76-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:53:13-56
+76-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:53:13-56
 77            android:exported="false" />
-77-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:54:13-37
+77-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:54:13-37
 78        <activity
-78-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:55:9-57:40
+78-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:55:9-57:40
 79            android:name="com.example.whatsapp_application.activities.ChatActivity"
-79-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:56:13-52
+79-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:56:13-52
 80            android:exported="false" />
-80-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:57:13-37
+80-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:57:13-37
 81        <activity
-81-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:58:9-60:40
+81-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:58:9-60:40
 82            android:name="com.example.whatsapp_application.activities.AddContactActivity"
-82-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:59:13-58
+82-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:59:13-58
 83            android:exported="false" />
-83-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:60:13-37
+83-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:60:13-37
 84        <activity
-84-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:61:9-63:40
+84-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:61:9-63:40
 85            android:name="com.example.whatsapp_application.activities.SettingsActivity"
-85-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:62:13-56
+85-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:62:13-56
 86            android:exported="false" />
-86-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:63:13-37
+86-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:63:13-37
 87
 88        <service
 88-->[com.google.firebase:firebase-database:20.2.2] /Users/rotemzilberman/.gradle/caches/transforms-3/8333634c2bf9b44b01fad9595a69352d/transformed/firebase-database-20.2.2/AndroidManifest.xml:28:9-34:19
@@ -264,10 +264,10 @@
 143            android:exported="false" >
 143-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rotemzilberman/.gradle/caches/transforms-3/5f1272a3e73f88ffd97771e6d9bb79b6/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
 144            <intent-filter android:priority="-500" >
-144-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:29:13-31:29
+144-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:29:13-31:29
 145                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-145-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:17-78
-145-->/Users/rotemzilberman/Desktop/untitled folder/app/src/main/AndroidManifest.xml:30:25-75
+145-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:17-78
+145-->/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/AndroidManifest.xml:30:25-75
 146            </intent-filter>
 147        </service>
 148

@@ -3057,6 +3057,7 @@ drawable picture_icon
 drawable received_message
 drawable send_icon_foreground
 drawable sent_message
+drawable settings_icon_foreground
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3219,6 +3220,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailsLv
 id dialog_button
 id dimensions
 id direct

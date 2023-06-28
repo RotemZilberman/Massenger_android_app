@@ -38,14 +38,14 @@
                     }
                 },
                 {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "327"
+                        "endOffsets": "332"
                     },
                     "to": {
                         "startLines": "2",

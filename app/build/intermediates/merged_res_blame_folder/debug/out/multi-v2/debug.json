@@ -2928,14 +2928,14 @@
                     }
                 },
                 {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "327"
+                        "endOffsets": "332"
                     },
                     "to": {
                         "startLines": "2",
@@ -7240,20 +7240,54 @@
                     }
                 },
                 {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values/strings.xml",
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values/exit_icon_background.xml",
                     "from": {
-                        "startLines": "1,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,74",
-                        "endColumns": "57,59",
-                        "endOffsets": "69,129"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "54",
+                        "endOffsets": "107"
                     },
                     "to": {
-                        "startLines": "1964,1966",
+                        "startLines": "701",
+                        "startColumns": "4",
+                        "startOffsets": "37142",
+                        "endColumns": "54",
+                        "endOffsets": "37192"
+                    }
+                },
+                {
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "3,2,7,4,5,11,9,10,12,8,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,57,299,154,202,484,398,441,531,347,254",
+                        "endColumns": "47,46,46,46,50,45,41,41,40,49,43",
+                        "endOffsets": "148,99,341,196,248,525,435,478,567,392,293"
+                    },
+                    "to": {
+                        "startLines": "1783,1784,1785,1791,1792,1798,1799,1800,1821,1855,1856",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "118684,118726,118767,119052,119093,119357,119402,119443,120578,122321,122365",
+                        "endColumns": "41,40,40,40,44,44,40,40,39,43,37",
+                        "endOffsets": "118721,118762,118803,119088,119133,119397,119438,119479,120613,122360,122398"
+                    }
+                },
+                {
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2,3",
                         "startColumns": "4,4",
-                        "startOffsets": "129567,129775",
-                        "endColumns": "57,59",
-                        "endOffsets": "129620,129830"
+                        "startOffsets": "57,100",
+                        "endColumns": "41,41",
+                        "endOffsets": "94,137"
+                    },
+                    "to": {
+                        "startLines": "638,966",
+                        "startColumns": "4,4",
+                        "startOffsets": "32659,57043",
+                        "endColumns": "41,41",
+                        "endOffsets": "32696,57080"
                     }
                 },
                 {
@@ -7290,23 +7324,6 @@
                         "startOffsets": "123273,132341",
                         "endColumns": "67,166",
                         "endOffsets": "123336,132503"
-                    }
-                },
-                {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/build/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,712",
-                        "endColumns": "143,81,103,108,119,97,74",
-                        "endOffsets": "194,276,380,489,609,707,782"
-                    },
-                    "to": {
-                        "startLines": "1995,2004,2005,2006,2007,2008,2122",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "133634,134488,134570,134674,134783,134903,151511",
-                        "endColumns": "143,81,103,108,119,97,74",
-                        "endOffsets": "133773,134565,134669,134778,134898,134996,151581"
                     }
                 },
                 {
@@ -7435,6 +7452,23 @@
                     }
                 },
                 {
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values/send_icon_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "54",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "959",
+                        "startColumns": "4",
+                        "startOffsets": "56581",
+                        "endColumns": "54",
+                        "endOffsets": "56631"
+                    }
+                },
+                {
                     "source": "/Users/rotemzilberman/.gradle/caches/transforms-3/55bfc8892bfdb6392420e690e6509960/transformed/appcompat-resources-1.6.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -7454,14 +7488,14 @@
                     }
                 },
                 {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values/themes.xml",
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values/themes.xml",
                     "from": {
                         "startLines": "2,7",
                         "startColumns": "4,4",
-                        "startOffsets": "100,335",
+                        "startOffsets": "102,342",
                         "endLines": "5,7",
                         "endColumns": "12,88",
-                        "endOffsets": "329,419"
+                        "endOffsets": "334,426"
                     },
                     "to": {
                         "startLines": "2539,6490",
@@ -7489,40 +7523,6 @@
                         "endLines": "109,9081,11039,11123",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "5821,630231,701372,705888"
-                    }
-                },
-                {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,41",
-                        "endOffsets": "92,134"
-                    },
-                    "to": {
-                        "startLines": "638,966",
-                        "startColumns": "4,4",
-                        "startOffsets": "32659,57043",
-                        "endColumns": "41,41",
-                        "endOffsets": "32696,57080"
-                    }
-                },
-                {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values/ids.xml",
-                    "from": {
-                        "startLines": "3,2,7,4,5,11,9,10,12,8,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "102,55,292,150,197,473,389,431,519,339,248",
-                        "endColumns": "47,46,46,46,50,45,41,41,40,49,43",
-                        "endOffsets": "145,97,334,192,243,514,426,468,555,384,287"
-                    },
-                    "to": {
-                        "startLines": "1783,1784,1785,1791,1792,1798,1799,1800,1821,1855,1856",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "118684,118726,118767,119052,119093,119357,119402,119443,120578,122321,122365",
-                        "endColumns": "41,40,40,40,44,44,40,40,39,43,37",
-                        "endOffsets": "118721,118762,118803,119088,119133,119397,119438,119479,120613,122360,122398"
                     }
                 },
                 {
@@ -7615,13 +7615,13 @@
                     }
                 },
                 {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values/emoji_icon_background.xml",
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values/emoji_icon_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
+                        "startOffsets": "57",
                         "endColumns": "55",
-                        "endOffsets": "106"
+                        "endOffsets": "108"
                     },
                     "to": {
                         "startLines": "698",
@@ -7651,20 +7651,37 @@
                     }
                 },
                 {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values/exit_icon_background.xml",
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "54",
-                        "endOffsets": "105"
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,76",
+                        "endColumns": "57,59",
+                        "endOffsets": "70,131"
                     },
                     "to": {
-                        "startLines": "701",
-                        "startColumns": "4",
-                        "startOffsets": "37142",
-                        "endColumns": "54",
-                        "endOffsets": "37192"
+                        "startLines": "1964,1966",
+                        "startColumns": "4,4",
+                        "startOffsets": "129567,129775",
+                        "endColumns": "57,59",
+                        "endOffsets": "129620,129830"
+                    }
+                },
+                {
+                    "source": "/Users/rotemzilberman/Desktop/untitled folder 2/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,712",
+                        "endColumns": "143,81,103,108,119,97,74",
+                        "endOffsets": "194,276,380,489,609,707,782"
+                    },
+                    "to": {
+                        "startLines": "1995,2004,2005,2006,2007,2008,2122",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "133634,134488,134570,134674,134783,134903,151511",
+                        "endColumns": "143,81,103,108,119,97,74",
+                        "endOffsets": "133773,134565,134669,134778,134898,134996,151581"
                     }
                 },
                 {
@@ -7722,23 +7739,6 @@
                         "endLines": "13452",
                         "endColumns": "24",
                         "endOffsets": "791441"
-                    }
-                },
-                {
-                    "source": "/Users/rotemzilberman/Desktop/untitled folder/app/src/main/res/values/send_icon_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "54",
-                        "endOffsets": "105"
-                    },
-                    "to": {
-                        "startLines": "959",
-                        "startColumns": "4",
-                        "startOffsets": "56581",
-                        "endColumns": "54",
-                        "endOffsets": "56631"
                     }
                 }
             ]

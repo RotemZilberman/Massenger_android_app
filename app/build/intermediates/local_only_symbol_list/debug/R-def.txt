@@ -20,6 +20,7 @@ drawable picture_icon
 drawable received_message
 drawable send_icon_foreground
 drawable sent_message
+drawable settings_icon_foreground
 drawable underline
 id addContactBtn
 id add_button
@@ -28,6 +29,7 @@ id archiveBtn
 id cancel_button
 id contactImage
 id contactName
+id detailsLv
 id disconnectBtn
 id displayName
 id displayNameTv
