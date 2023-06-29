@@ -28,9 +28,9 @@ public class ChatRepository {
         chatApi.getAllChats(token, ChatListData);
     }
 
-    public void createChat(String username, String token, MutableLiveData<List<Chat>> chatData) {
+    public void createChat(String username, String token, MutableLiveData<List<Chat>> chatData, MutableLiveData<Integer> success) {
         ChatRequest chatRequest = new ChatRequest(username);
-        chatApi.createChat(chatRequest, token, chatData);
+        chatApi.createChat(chatRequest, token, chatData, success);
     }
     public void getChat(String chatId, String token) {
         chatApi.getChat(chatId, token);
