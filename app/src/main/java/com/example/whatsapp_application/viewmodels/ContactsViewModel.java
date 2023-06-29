@@ -34,8 +34,8 @@ public LiveData<List<Chat>> getChats(String token) {
         return chats;
 }
 
-public void createChat(String username, String token) {
-        chatRepository.createChat(username, token, chats);
+public void createChat(String username, String token, MutableLiveData<Integer> success) {
+        chatRepository.createChat(username, token, chats, success);
 }
 
     public void deleteChat(String chatId, String token) {
