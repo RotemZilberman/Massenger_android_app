@@ -55,3 +55,8 @@ Furthermore, the application utilizes Firebase Cloud Messaging to incorporate re
 In summary, the application adopts the MVVM architecture to ensure a well-structured codebase, while employing Firebase Cloud Messaging and Room in SQLite to enable real-time notifications and efficient data management respectively. The consistent design theme throughout the app guarantees a visually appealing and user-friendly experience.
 ### Note
 that the notification must be activated on the device in order to use the application properly and must be connected to Firebase.
+
+#Please add the next line too :
+
+![image](https://github.com/RotemZilberman/ass3-programming/assets/94087682/639aeb1b-34ce-4e09-be9d-2bd70efa3e38)
+
