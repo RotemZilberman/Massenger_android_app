@@ -56,7 +56,7 @@ In summary, the application adopts the MVVM architecture to ensure a well-struct
 ### Note
 that the notification must be activated on the device in order to use the application properly and must be connected to Firebase.
 
-#Please add the next line too :
+# Please add the next line too:
 
 ![image](https://github.com/RotemZilberman/ass3-programming/assets/94087682/639aeb1b-34ce-4e09-be9d-2bd70efa3e38)
 
