@@ -63,7 +63,7 @@ public class ChatApi {
         return updatedData;
     }
 
-    public void createChat(ChatRequest chatRequest, String token, MutableLiveData<List<Chat>> chatData) {
+    public void createChat(ChatRequest chatRequest, String token, MutableLiveData<List<Chat>> chatData, MutableLiveData<Integer> success) {
         Call<CompressChat> call = webServiceAPI.createChat(chatRequest, token);
         call.enqueue(new Callback<CompressChat>() {
             @Override
@@ -78,12 +78,17 @@ public class ChatApi {
                                 chatData.postValue(updateChatData(chatData.getValue(), chat));  // add chat to chatData
                         }).start();
                     }
+                    success.postValue(1);
+                }
+                else {
+                    success.postValue(0);
                 }
             }
 
             @Override
             public void onFailure(Call<CompressChat> call, Throwable t) {
                 Log.d("TAG", "onFailure: " + t.getMessage());
+                success.postValue(0);
             }
         });
     }
